@@ -1,0 +1,14 @@
+{
+  "name": "tecnocoop-website",
+  "version": "1.0.0",
+  "description": "Sitio web de Tecnocoop, cooperativa para el espacio digital público",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "dev": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

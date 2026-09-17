@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/">{{ site.name }}</a>
+    <nav class="nav" aria-label="Navegación principal">
+      <ul>
+        {% for item in site.nav %}
+        <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
