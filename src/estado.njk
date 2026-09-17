@@ -1,0 +1,67 @@
+---
+layout: base.njk
+title: Estado
+description: "Estado de la infraestructura de Tecnocoop: salud general, almacenamiento y servicios."
+permalink: /estado/
+---
+{% set freeGb = status.storage.totalGb - status.storage.usedGb %}
+{% set usedPct = (status.storage.usedGb / status.storage.totalGb * 100) | round(1) %}
+<section class="page-content">
+  <div class="wrap">
+    <h1>Estado de la infraestructura</h1>
+    <p class="lede">Salud general de los servicios de {{ site.name }}, actualizada por última vez el {{ status.updatedAt }}.</p>
+
+    <div class="status-banner status-banner--{{ status.overall.state }}">
+      <span class="status-dot"></span>
+      <span>{{ status.overall.label }}</span>
+    </div>
+
+    <h2>Almacenamiento</h2>
+    <div class="status-card">
+      <div class="status-card__header">
+        <h3>Espacio en disco</h3>
+        <span class="status-badge status-badge--ok">Operativo</span>
+      </div>
+      <div class="storage-bar" role="img" aria-label="{{ status.storage.usedGb }} GB usados de {{ status.storage.totalGb }} GB">
+        <div class="storage-bar__used" style="width: {{ usedPct }}%;"></div>
+      </div>
+      <div class="storage-stats">
+        <div>
+          <strong>{{ status.storage.usedGb }} GB</strong>
+          <span>usados</span>
+        </div>
+        <div>
+          <strong>{{ freeGb }} GB</strong>
+          <span>disponibles</span>
+        </div>
+        <div>
+          <strong>{{ status.storage.totalGb }} GB</strong>
+          <span>totales</span>
+        </div>
+      </div>
+    </div>
+
+    <h2>Servicios</h2>
+    <div class="status-list">
+      {% for service in status.services %}
+      <div class="status-card">
+        <div class="status-card__header">
+          <h3>{{ service.name }}</h3>
+          <span class="status-badge status-badge--{{ service.state }}">Operativo</span>
+        </div>
+        <p>{{ service.description }}</p>
+        {% if service.stats %}
+        <div class="service-stats">
+          {% for stat in service.stats %}
+          <div>
+            <strong>{{ stat.value }}</strong>
+            <span>{{ stat.label }}</span>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

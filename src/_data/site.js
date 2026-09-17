@@ -9,5 +9,6 @@ module.exports = {
     { text: "Pods", url: "/pods/" },
     { text: "Sobre nosotros", url: "/sobre/" },
     { text: "Hazte socio/a", url: "/hazte-socio/" },
+    { text: "Estado", url: "/estado/" },
   ],
 };
