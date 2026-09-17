@@ -19,5 +19,21 @@ module.exports = {
         { label: "Disponibilidad (30 días)", value: "100%" },
       ],
     },
+    {
+      name: "Consumo eléctrico",
+      state: "ok",
+      description: "Energía consumida por la infraestructura de la cooperativa.",
+      stats: [
+        { label: "Consumo actual", value: "1.8 kWh" },
+        { label: "Consumo hoy", value: "24 kWh" },
+        { label: "Promedio diario (30 días)", value: "26 kWh" },
+      ],
+    },
+    {
+      name: "Consumo de internet",
+      state: "disabled",
+      description: "Tráfico de red de la infraestructura. Aún no disponible.",
+      stats: [],
+    },
   ],
 };

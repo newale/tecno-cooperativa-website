@@ -6,6 +6,7 @@ permalink: /estado/
 ---
 {% set freeGb = status.storage.totalGb - status.storage.usedGb %}
 {% set usedPct = (status.storage.usedGb / status.storage.totalGb * 100) | round(1) %}
+{% set badgeLabels = { ok: "Operativo", degraded: "Degradado", down: "Caído", disabled: "No disponible" } %}
 <section class="page-content">
   <div class="wrap">
     <h1>Estado de la infraestructura</h1>
@@ -44,13 +45,13 @@ permalink: /estado/
     <h2>Servicios</h2>
     <div class="status-list">
       {% for service in status.services %}
-      <div class="status-card">
+      <div class="status-card{% if service.state == 'disabled' %} status-card--disabled{% endif %}">
         <div class="status-card__header">
           <h3>{{ service.name }}</h3>
-          <span class="status-badge status-badge--{{ service.state }}">Operativo</span>
+          <span class="status-badge status-badge--{{ service.state }}">{{ badgeLabels[service.state] }}</span>
         </div>
         <p>{{ service.description }}</p>
-        {% if service.stats %}
+        {% if service.stats and service.stats.length %}
         <div class="service-stats">
           {% for stat in service.stats %}
           <div>
