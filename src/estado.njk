@@ -4,17 +4,17 @@ title: Estado
 description: "Estado de la infraestructura de Tecnocoop: salud general, almacenamiento y servicios."
 permalink: /estado/
 ---
-{% set freeGb = status.storage.totalGb - status.storage.usedGb %}
+{% set freeGb = (status.storage.totalGb - status.storage.usedGb) | round(1) %}
 {% set usedPct = (status.storage.usedGb / status.storage.totalGb * 100) | round(1) %}
 {% set badgeLabels = { ok: "Operativo", degraded: "Degradado", down: "Caído", disabled: "No disponible" } %}
-<section class="page-content">
+<section class="page-content" data-estado-page>
   <div class="wrap">
     <h1>Estado de la infraestructura</h1>
-    <p class="lede">Salud general de los servicios de {{ site.name }}, actualizada por última vez el {{ status.updatedAt }}.</p>
+    <p class="lede">Salud general de los servicios de {{ site.name }}, actualizada por última vez el <span data-field="date">{{ status.date }}</span>.</p>
 
-    <div class="status-banner status-banner--{{ status.overall.state }}">
+    <div class="status-banner status-banner--{{ status.overall.state }}" data-field="overall-banner">
       <span class="status-dot"></span>
-      <span>{{ status.overall.label }}</span>
+      <span data-field="overall-label">{{ status.overall.label }}</span>
     </div>
 
     <h2>Almacenamiento</h2>
@@ -23,20 +23,20 @@ permalink: /estado/
         <h3>Espacio en disco</h3>
         <span class="status-badge status-badge--ok">Operativo</span>
       </div>
-      <div class="storage-bar" role="img" aria-label="{{ status.storage.usedGb }} GB usados de {{ status.storage.totalGb }} GB">
-        <div class="storage-bar__used" style="width: {{ usedPct }}%;"></div>
+      <div class="storage-bar" role="img" data-field="storage-bar" aria-label="{{ status.storage.usedGb }} GB usados de {{ status.storage.totalGb }} GB">
+        <div class="storage-bar__used" data-field="storage-bar-fill" style="width: {{ usedPct }}%;"></div>
       </div>
       <div class="storage-stats">
         <div>
-          <strong>{{ status.storage.usedGb }} GB</strong>
+          <strong data-field="storage-used">{{ status.storage.usedGb }} GB</strong>
           <span>usados</span>
         </div>
         <div>
-          <strong>{{ freeGb }} GB</strong>
+          <strong data-field="storage-free">{{ freeGb }} GB</strong>
           <span>disponibles</span>
         </div>
         <div>
-          <strong>{{ status.storage.totalGb }} GB</strong>
+          <strong data-field="storage-total">{{ status.storage.totalGb }} GB</strong>
           <span>totales</span>
         </div>
       </div>
@@ -44,6 +44,34 @@ permalink: /estado/
 
     <h2>Servicios</h2>
     <div class="status-list">
+      <div class="status-card">
+        <div class="status-card__header">
+          <h3>Pods (Solid)</h3>
+          <span class="status-badge status-badge--ok">Operativo</span>
+        </div>
+        <p>Almacenamiento de datos personales bajo el estándar Solid.</p>
+        <div class="service-stats">
+          <div>
+            <strong data-field="pod-count">{{ status.podCount }}</strong>
+            <span>Pods activos</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="status-card">
+        <div class="status-card__header">
+          <h3>Consumo eléctrico</h3>
+          <span class="status-badge status-badge--ok">Operativo</span>
+        </div>
+        <p>Energía consumida por la infraestructura de la cooperativa.</p>
+        <div class="service-stats">
+          <div>
+            <strong data-field="kwh-today">{{ status.kwhToday }} kWh</strong>
+            <span>Consumo hoy</span>
+          </div>
+        </div>
+      </div>
+
       {% for service in status.services %}
       <div class="status-card{% if service.state == 'disabled' %} status-card--disabled{% endif %}">
         <div class="status-card__header">
@@ -64,5 +92,7 @@ permalink: /estado/
       </div>
       {% endfor %}
     </div>
+
+    <p class="status-source-note" data-field="source-note">Datos en vivo desde status-tc.aebn.cl.</p>
   </div>
 </section>

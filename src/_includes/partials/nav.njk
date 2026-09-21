@@ -4,7 +4,11 @@
     <nav class="nav" aria-label="Navegación principal">
       <ul>
         {% for item in site.nav %}
-        <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.text }}</a></li>
+        <li>
+          <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>
+            {{ item.text }}{% if item.url == "/estado/" %} <span class="nav-status-dot status-dot--unknown" data-status-dot role="img" aria-label="Estado: cargando…"></span>{% endif %}
+          </a>
+        </li>
         {% endfor %}
       </ul>
     </nav>

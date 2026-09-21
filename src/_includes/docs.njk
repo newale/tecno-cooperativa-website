@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} · {% endif %}{{ site.name }} Docs</title>
+  <meta name="description" content="{{ description or site.tagline }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {% include "partials/nav.njk" %}
+  <div class="docs-layout">
+    <input type="checkbox" id="docs-nav-toggle" class="docs-nav-toggle-input">
+    <label for="docs-nav-toggle" class="docs-nav-toggle-label">☰ Índice</label>
+    <aside class="docs-sidebar" aria-label="Índice de documentación">
+      {% for section in collections.docsSections %}
+      <div class="docs-sidebar__section">
+        <h2>{{ section.name }}</h2>
+        <ul>
+          {% for item in section.items %}
+          <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </aside>
+    <main class="docs-content">
+      <div class="docs-content__inner">
+        {{ content | safe }}
+      </div>
+    </main>
+  </div>
+  <script src="/js/status.js" defer></script>
+</body>
+</html>

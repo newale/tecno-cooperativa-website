@@ -10,5 +10,6 @@ module.exports = {
     { text: "Sobre nosotros", url: "/sobre/" },
     { text: "Hazte socio/a", url: "/hazte-socio/" },
     { text: "Estado", url: "/estado/" },
+    { text: "Documentación", url: "/docs/pods/" },
   ],
 };
