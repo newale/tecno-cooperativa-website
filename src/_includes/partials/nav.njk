@@ -4,12 +4,26 @@
     <nav class="nav" aria-label="Navegación principal">
       <ul>
         {% for item in site.nav %}
-        <li>
-          <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>
-            {{ item.text }}{% if item.url == "/estado/" %} <span class="nav-status-dot status-dot--unknown" data-status-dot role="img" aria-label="Estado: cargando…"></span>{% endif %}
-          </a>
+        <li class="nav-item{% if item.dropdown %} nav-item--dropdown{% endif %}">
+          {% if item.dropdown %}
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="nav-dropdown-{{ loop.index }}">{{ item.text }}</button>
+          <ul class="nav-dropdown-menu" id="nav-dropdown-{{ loop.index }}">
+            {% for sub in item.dropdown %}
+            <li><a href="{{ sub.url }}"{% if page.url == sub.url %} aria-current="page"{% endif %}>{{ sub.text }}</a></li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.text }}</a>
+          {% endif %}
         </li>
         {% endfor %}
+        {% if site.statusNavItem %}
+        <li class="nav-item">
+          <a href="{{ site.statusNavItem.url }}"{% if page.url == site.statusNavItem.url %} aria-current="page"{% endif %}>
+            {{ site.statusNavItem.text }} <span class="nav-status-dot status-dot--unknown" data-status-dot role="img" aria-label="Estado: cargando…"></span>
+          </a>
+        </li>
+        {% endif %}
       </ul>
     </nav>
   </div>

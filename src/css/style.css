@@ -125,6 +125,67 @@ a {
   background: var(--color-status-unknown);
 }
 
+.nav-item--dropdown {
+  position: relative;
+}
+
+.nav-dropdown-toggle {
+  background: none;
+  border: none;
+  font: inherit;
+  color: var(--color-text);
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.nav-dropdown-toggle:hover {
+  color: var(--color-primary-dark);
+}
+
+.nav-dropdown-toggle::after {
+  content: "▾";
+  font-size: 0.65em;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 140px;
+  margin-top: 0.6rem;
+  padding: 0.4rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  list-style: none;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  z-index: 20;
+}
+
+.nav-dropdown-menu li {
+  margin: 0;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--radius);
+  white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover {
+  background: var(--color-accent-bg);
+}
+
+.nav-item--dropdown:hover .nav-dropdown-menu,
+.nav-dropdown-toggle[aria-expanded="true"] ~ .nav-dropdown-menu {
+  display: block;
+}
+
 /* Hero */
 .hero {
   padding: 3.5rem 0 3rem;
@@ -245,6 +306,15 @@ section h2 {
   color: var(--color-muted);
   font-size: 1.1rem;
   margin-bottom: 2rem;
+}
+
+.page-content h1.section-title {
+  font-size: 1.9rem;
+  margin: 2.5rem 0 1rem;
+}
+
+.page-content h1.section-title:first-of-type {
+  margin-top: 1.5rem;
 }
 
 .note {

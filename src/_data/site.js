@@ -6,10 +6,13 @@ module.exports = {
   url: "https://tecnocoop.aebn.cl",
   nav: [
     { text: "Inicio", url: "/" },
-    { text: "Pods", url: "/pods/" },
+    {
+      text: "Servicios",
+      dropdown: [{ text: "Pods", url: "/pods/" }],
+    },
     { text: "Sobre nosotros", url: "/sobre/" },
-    { text: "Hazte socio/a", url: "/hazte-socio/" },
-    { text: "Estado", url: "/estado/" },
     { text: "Documentación", url: "/docs/pods/" },
   ],
+  // Siempre se renderiza al final del nav, ver partials/nav.njk.
+  statusNavItem: { text: "Estado", url: "/estado/" },
 };
