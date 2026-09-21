@@ -158,21 +158,23 @@ a {
 .nav .nav-dropdown-menu {
   display: none;
   position: absolute;
-  /* site-header__inner tiene padding-bottom: 1rem; bajamos unos px más
-     para que el borde superior del menú quede justo debajo del
-     border-bottom del header, sin solaparse ni cortar esa línea. */
-  top: calc(100% + 1rem + 6px);
+  /* site-header__inner tiene padding-bottom: 1rem: el borde superior
+     del menú queda exactamente sobre el border-bottom del header, para
+     que ambas líneas coincidan en vez de dejar un espacio o un corte. */
+  top: calc(100% + 1rem);
   left: 50%;
   transform: translateX(-50%);
   min-width: 140px;
   padding: 0.4rem;
   background: var(--color-bg);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius);
+  border-radius: 0 0 var(--radius) var(--radius);
   list-style: none;
   flex-direction: column;
   gap: 0;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  /* offset >= blur para que la sombra no sangre por encima del borde
+     superior y rompa la línea del header. */
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.12);
   z-index: 20;
 }
 
@@ -181,10 +183,10 @@ a {
 .nav .nav-dropdown-menu::before {
   content: "";
   position: absolute;
-  top: calc(-1rem - 6px);
+  top: -1rem;
   left: 0;
   right: 0;
-  height: calc(1rem + 6px);
+  height: 1rem;
 }
 
 .nav-dropdown-menu li {
