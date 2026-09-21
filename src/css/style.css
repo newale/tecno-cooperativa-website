@@ -150,7 +150,7 @@ a {
   font-size: 0.65em;
 }
 
-.nav-dropdown-menu {
+.nav .nav-dropdown-menu {
   display: none;
   position: absolute;
   top: 100%;
@@ -162,6 +162,8 @@ a {
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   list-style: none;
+  flex-direction: column;
+  gap: 0;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
   z-index: 20;
 }
@@ -181,9 +183,8 @@ a {
   background: var(--color-accent-bg);
 }
 
-.nav-item--dropdown:hover .nav-dropdown-menu,
-.nav-dropdown-toggle[aria-expanded="true"] ~ .nav-dropdown-menu {
-  display: block;
+.nav .nav-dropdown-toggle[aria-expanded="true"] ~ .nav-dropdown-menu {
+  display: flex;
 }
 
 /* Hero */
