@@ -147,25 +147,41 @@ a {
 
 .nav-dropdown-toggle::after {
   content: "▾";
-  font-size: 0.65em;
+  font-size: 0.9em;
+  line-height: 1;
 }
 
 .nav .nav-dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%;
-  left: 0;
+  /* Empieza justo donde termina el header: site-header__inner tiene
+     padding-bottom: 1rem, así el borde superior del menú coincide con
+     el border-bottom del header. */
+  top: calc(100% + 1rem);
+  left: 50%;
+  transform: translateX(-50%);
   min-width: 140px;
-  margin-top: 0.6rem;
   padding: 0.4rem;
   background: var(--color-bg);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
   list-style: none;
   flex-direction: column;
   gap: 0;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
   z-index: 20;
+}
+
+/* Puente invisible que cubre el espacio entre el trigger y el menú,
+   para que el hover no se corte al bajar el cursor hacia el menú. */
+.nav .nav-dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  right: 0;
+  height: 1rem;
 }
 
 .nav-dropdown-menu li {
@@ -183,6 +199,7 @@ a {
   background: var(--color-accent-bg);
 }
 
+.nav .nav-item--dropdown:hover .nav-dropdown-menu,
 .nav .nav-dropdown-toggle[aria-expanded="true"] ~ .nav-dropdown-menu {
   display: flex;
 }
