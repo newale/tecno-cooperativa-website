@@ -26,6 +26,15 @@
     return Math.round((bytes / 1e9) * 10) / 10;
   }
 
+  // "2026-09-20" -> "20 de septiembre de 2026". Se arma en UTC para que la zona
+  // horaria del navegador no corra la fecha un día.
+  function formatLongDate(iso) {
+    var parts = String(iso).split("-").map(Number);
+    var date = new Date(Date.UTC(parts[0], parts[1] - 1, parts[2]));
+    if (isNaN(date.getTime())) return iso;
+    return new Intl.DateTimeFormat("es-CL", { dateStyle: "long", timeZone: "UTC" }).format(date);
+  }
+
   async function fetchLive() {
     var metricsRes = await fetch(METRICS_URL, { cache: "no-store" });
     if (!metricsRes.ok) throw new Error("metrics endpoint returned " + metricsRes.status);
@@ -78,7 +87,7 @@
     var freeGb = bytesToGb(metrics.free_space_bytes);
     var usedPct = totalGb > 0 ? Math.round((usedGb / totalGb) * 1000) / 10 : 0;
 
-    setField("date", metrics.date);
+    setField("date", formatLongDate(metrics.date));
     setField(
       "overall-label",
       healthy ? "Todos los sistemas operativos" : "Hay problemas con la infraestructura"
