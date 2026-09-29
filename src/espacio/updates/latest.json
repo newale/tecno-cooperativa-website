@@ -1,0 +1,11 @@
+{
+  "version": "1.2.0",
+  "dmg": {
+    "file": "espacio-1.2.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.2.0-arm64.dmg",
+    "sha512": "kq9NUMJhEU6e0s8Lmf0CLp9+rHidaUmzVHu8WjM3BDmuW/+vtPIdicABpPWmcZ0IwAFkbS7uYKkm9b00DR0tPg==",
+    "size": 126845944
+  },
+  "notes": "Compartir archivos y carpetas, límite de 90 MB por subida",
+  "date": "2026-09-29T05:11:58.930Z"
+}

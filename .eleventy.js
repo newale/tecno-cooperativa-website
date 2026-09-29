@@ -2,6 +2,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
+  // Feed de actualizaciones de espacio: latest.json + su firma, tal cual.
+  eleventyConfig.addPassthroughCopy({ "src/espacio/updates": "espacio/updates" });
 
   eleventyConfig.addCollection("docsSections", (collectionApi) => {
     const docs = collectionApi
