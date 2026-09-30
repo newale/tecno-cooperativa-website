@@ -6,7 +6,7 @@ order: 3
 
 # WebID
 
-Un **WebID** es una URL que te identifica a vos (o a una aplicación) dentro del ecosistema Solid — algo así como tu nombre de usuario, pero abierto, descentralizado y que no depende de ninguna plataforma en particular.
+Un **WebID** es una URL que te identifica a ti (o a una aplicación) dentro del ecosistema Solid — algo así como tu nombre de usuario, pero abierto, descentralizado y que no depende de ninguna plataforma en particular.
 
 Ejemplo de forma: `https://tuusuario.tecnocoop.aebn.cl/profile/card#me`
 
@@ -14,7 +14,7 @@ Ejemplo de forma: `https://tuusuario.tecnocoop.aebn.cl/profile/card#me`
 
 - **Iniciar sesión** en cualquier aplicación compatible con Solid, sin crear una cuenta nueva en cada una.
 - **Identificarte** ante otros Pods para que puedan darte acceso a información compartida.
-- **Publicar tu perfil**: nombre, foto, y otros datos públicos que vos decidís mostrar.
+- **Publicar tu perfil**: nombre, foto, y otros datos públicos que tú decides mostrar.
 
 ## ¿Cómo se relaciona con tu Pod?
 

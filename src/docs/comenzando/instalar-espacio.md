@@ -12,15 +12,15 @@ order: 0
 
 Requiere un Mac con procesador Apple (M1 o posterior).
 
-1. Descargá [espacio para Mac]({{ espacio.dmgUrl }}) (`.dmg`).
-2. Abrí el `.dmg` y arrastrá **espacio** a la carpeta **Aplicaciones**.
-3. Sacá la app de cuarentena. Abrí la **Terminal** y ejecutá:
+1. Descarga [espacio para Mac]({{ espacio.dmgUrl }}) (`.dmg`).
+2. Abre el `.dmg` y arrastra **espacio** a la carpeta **Aplicaciones**.
+3. Saca la app de cuarentena. Abre la **Terminal** y ejecuta:
 
    ```bash
    xattr -dr com.apple.quarantine /Applications/espacio.app
    ```
 
-4. Abrí espacio desde **Aplicaciones** o Launchpad.
+4. Abre espacio desde **Aplicaciones** o Launchpad.
 
 ### ¿Por qué hay que sacarla de cuarentena?
 
@@ -34,8 +34,8 @@ espacio avisa cuando hay una versión nueva y se actualiza sola al apretar **Act
 
 Requiere Ubuntu (o una distribución basada en Debian) de 64 bits en un equipo Intel o AMD.
 
-1. Descargá [espacio para Ubuntu]({{ espacio.ubuntuUrl }}) (`.deb`).
-2. Abrí una terminal en la carpeta donde se descargó e instalalo:
+1. Descarga [espacio para Ubuntu]({{ espacio.ubuntuUrl }}) (`.deb`).
+2. Abre una terminal en la carpeta donde se descargó e instálalo:
 
    ```bash
    sudo apt install ./espacio-{{ espacio.version }}-amd64.deb
@@ -43,11 +43,11 @@ Requiere Ubuntu (o una distribución basada en Debian) de 64 bits en un equipo I
 
    `apt` instala también las dependencias que falten.
 
-3. Abrí espacio desde el menú de aplicaciones.
+3. Abre espacio desde el menú de aplicaciones.
 
 ### Actualizaciones
 
-En Ubuntu espacio todavía no se actualiza sola. Para pasar a una versión nueva, descargá el `.deb` nuevo y repetí el paso 2.
+En Ubuntu espacio todavía no se actualiza sola. Para pasar a una versión nueva, descarga el `.deb` nuevo y repite el paso 2.
 
 ### Desinstalar
 

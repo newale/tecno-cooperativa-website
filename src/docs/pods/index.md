@@ -14,9 +14,9 @@ En lugar de que tus datos —fotos, contactos, documentos, publicaciones— viva
 
 | | Nube tradicional | Pod (Solid) |
 |---|---|---|
-| ¿Quién controla el acceso? | La plataforma | Vos |
+| ¿Quién controla el acceso? | La plataforma | Tú |
 | ¿Los datos están atados a una app? | Sí | No, cualquier app compatible con Solid puede usarlos |
-| ¿Podés cambiarte de proveedor sin perder tus datos? | Generalmente no | Sí |
+| ¿Puedes cambiarte de proveedor sin perder tus datos? | Generalmente no | Sí |
 
 ## ¿Por qué Tecnocoop ofrece Pods?
 
