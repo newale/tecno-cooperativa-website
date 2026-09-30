@@ -14,6 +14,23 @@ description: "Tecnocoop es una cooperativa de software y hardware en formación.
   </div>
 </section>
 
+<section id="espacio">
+  <div class="wrap">
+    <div class="cta">
+      <h2>Descarga espacio</h2>
+      <p>La app de Tecnocoop para compartir archivos y carpetas desde tu Pod. Versión {{ espacio.version }}.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="{{ espacio.dmgUrl }}">Descargar para Mac</a>
+        {% if espacio.ubuntuUrl %}
+        <a class="btn btn-primary" href="{{ espacio.ubuntuUrl }}">Descargar para Ubuntu</a>
+        {% else %}
+        <span class="btn btn-secondary btn-disabled" aria-disabled="true">Ubuntu: próximamente</span>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="servicios">
   <div class="wrap">
     <h2>Nuestros servicios</h2>
