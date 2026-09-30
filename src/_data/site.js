@@ -11,7 +11,7 @@ module.exports = {
       dropdown: [{ text: "Pods", url: "/pods/" }],
     },
     { text: "Sobre nosotros", url: "/sobre/" },
-    { text: "Documentación", url: "/docs/pods/" },
+    { text: "Documentación", url: "/docs/comenzando/instalar-espacio/" },
   ],
   // Siempre se renderiza al final del nav, ver partials/nav.njk.
   statusNavItem: { text: "Estado", url: "/estado/" },

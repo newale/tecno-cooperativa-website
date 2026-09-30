@@ -6,12 +6,14 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 ## [Sin publicar]
 
 ### Añadido
+- Sección «Comenzando» en la documentación, con la guía para instalar espacio en Mac (incluido sacarla de cuarentena) y Ubuntu.
 - Botón de descarga de espacio para Ubuntu (`.deb` amd64), junto al de Mac.
 - Sección de descarga de la app espacio bajo el hero de la portada, con botón para Mac (versión tomada de `latest.json`).
 - Fecha de actualización del consumo en formato largo en la página de estado.
 - Feed de actualizaciones de espacio (`latest.json` y su firma).
 
 ### Cambiado
+- El enlace «Documentación» del menú lleva a la guía de instalación de espacio.
 - Ajustes visuales del dropdown de Servicios: hover, ícono, centrado y alineación del borde con el header.
 
 ### Corregido
