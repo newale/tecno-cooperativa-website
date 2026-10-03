@@ -1,11 +1,11 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "dmg": {
-    "file": "espacio-1.2.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.2.0-arm64.dmg",
-    "sha512": "kq9NUMJhEU6e0s8Lmf0CLp9+rHidaUmzVHu8WjM3BDmuW/+vtPIdicABpPWmcZ0IwAFkbS7uYKkm9b00DR0tPg==",
-    "size": 126845944
+    "file": "espacio-1.3.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.3.0-arm64.dmg",
+    "sha512": "OW0h/fiUS0ZhReaK32WYPeEmeaZikCKEucfd2JKh3/qJf1mtX1meSw8k+ET4OImmGCYi2ftshGWbkzBL2QmqNg==",
+    "size": 126953230
   },
-  "notes": "Compartir archivos y carpetas, límite de 90 MB por subida",
-  "date": "2026-09-29T05:11:58.930Z"
+  "notes": "Música en el catálogo, Estudio, Calendario, hojas y arbol (en construcción), varios pods en Archivos, edición visual en escribir y paquete .deb para Linux.",
+  "date": "2026-10-03T03:36:23.554Z"
 }
