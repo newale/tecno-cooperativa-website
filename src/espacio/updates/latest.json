@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.1",
   "dmg": {
-    "file": "espacio-1.3.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.3.0-arm64.dmg",
-    "sha512": "OW0h/fiUS0ZhReaK32WYPeEmeaZikCKEucfd2JKh3/qJf1mtX1meSw8k+ET4OImmGCYi2ftshGWbkzBL2QmqNg==",
-    "size": 126953230
+    "file": "espacio-1.4.1-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.4.1-arm64.dmg",
+    "sha512": "pnY5t90dNbJjryKynMblt4cxD36X8/0bg5tShVuzQ1uusUFkqC+6Sf5iTA7+8wx45cSvcv6vfZtJ9eVfzXuMLQ==",
+    "size": 126975715
   },
-  "notes": "Música en el catálogo, Estudio, Calendario, hojas y arbol (en construcción), varios pods en Archivos, edición visual en escribir y paquete .deb para Linux.",
-  "date": "2026-10-03T03:36:23.554Z"
+  "notes": "Varias cuentas desde el perfil, Archivos con barra lateral, favoritos y «Compartidos conmigo», escribir guarda en Documentos/, arbol se publica en arbol.aebn.cl y las apps ordenan sus datos en Aplicaciones/ (se migran solas). Corrige la recarga sin fin de Música.",
+  "date": "2026-10-07T00:17:44.264Z"
 }
