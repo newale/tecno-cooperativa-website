@@ -1,6 +1,6 @@
 ---
 title: "Instalar espacio"
-description: "Cómo descargar e instalar espacio, la app de escritorio de Tecnocoop, en Mac y Ubuntu."
+description: "Cómo descargar e instalar espacio, la app de escritorio de Tecnocoop, en Mac, Ubuntu y Windows."
 order: 0
 ---
 
@@ -54,3 +54,24 @@ En Ubuntu espacio todavía no se actualiza sola. Para pasar a una versión nueva
 ```bash
 sudo apt remove espacio
 ```
+
+## Windows
+
+Requiere Windows 10 u 11 de 64 bits.
+
+1. Descarga [espacio para Windows]({{ espacio.windowsUrl }}) (`.exe`).
+2. Abre el instalador. Si Windows muestra «Windows protegió su PC», haz clic en **Más información** y luego en **Ejecutar de todas formas**.
+3. Sigue los pasos del instalador. Puedes elegir la carpeta de instalación.
+4. Abre espacio desde el menú Inicio o el acceso directo del escritorio.
+
+### ¿Por qué aparece el aviso de Windows?
+
+Windows SmartScreen advierte sobre los programas que no están firmados con un certificado de código. La cooperativa todavía no tiene ese certificado, así que el aviso aparece la primera vez. Continuar solo abre el instalador de espacio; no cambia ninguna configuración de seguridad de tu equipo.
+
+### Actualizaciones
+
+En Windows espacio todavía no se actualiza sola. Para pasar a una versión nueva, descarga el instalador nuevo y ábrelo: se instala encima de la anterior y conserva tu sesión.
+
+### Desinstalar
+
+En **Configuración → Aplicaciones → Aplicaciones instaladas**, busca **espacio** y elige **Desinstalar**.
