@@ -1,11 +1,11 @@
 {
-  "version": "1.5.0",
+  "version": "1.7.0",
   "dmg": {
-    "file": "espacio-1.5.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.5.0-arm64.dmg",
-    "sha512": "jSA2Hq9nmNVQRVMZMJZM8TVTmouw5CCk3UMtAkyAHm0tFJx+dI4fpw1LZLNuiIfhhBYdYvlcwQHFchWZGUTPWA==",
-    "size": 126992984
+    "file": "espacio-1.7.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.7.0-arm64.dmg",
+    "sha512": "kjpGWJWvN0PE8TcwaxhbFKqfqcMgSsTIcXwn23j0pzgIX8krZR7QuBaCWW6Kki/OeP+l2FHZepYYbRcYhS71Ag==",
+    "size": 126990965
   },
-  "notes": "Carpetas del equipo sincronizadas con el pod desde Archivos («En este equipo»), Notas en el catálogo, y corrige las sobrescrituras desde las mini-apps (respuesta 205 del pod).",
-  "date": "2026-10-08T04:25:33.862Z"
+  "notes": "archivador en el catálogo e instalador para Windows",
+  "date": "2026-10-13T23:45:39.877Z"
 }
