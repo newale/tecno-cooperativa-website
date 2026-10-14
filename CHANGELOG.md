@@ -5,6 +5,16 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.5.0] - 2026-10-13
+
+### Añadido
+- Sección «Estado actual» en Sobre nosotros (`/sobre/#estado`): qué significa la etapa de organización inicial (también llamada precooperativa), qué falta para constituir la cooperativa y enlaces a la Ley General de Cooperativas y a la DAES.
+- Enlaces «Saber más» hacia esa explicación desde el pie de página, la portada y Hazte socio/a.
+
+### Cambiado
+- «En formación» pasa a «en etapa de organización inicial» en todo el sitio.
+- La captura de espacio es ahora un PNG con fondo transparente, sin marco alrededor.
+
 ## [1.4.0] - 2026-10-13
 
 ### Añadido
@@ -56,7 +66,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 ### Corregido
 - El dropdown de Servicios quedaba siempre abierto.
 
-[Sin publicar]: https://github.com/newale/tecno-cooperativa-website/compare/v1.4.0...HEAD
+[Sin publicar]: https://github.com/newale/tecno-cooperativa-website/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/newale/tecno-cooperativa-website/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/newale/tecno-cooperativa-website/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/newale/tecno-cooperativa-website/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/newale/tecno-cooperativa-website/compare/v1.1.0...v1.2.0
