@@ -1,6 +1,6 @@
 module.exports = {
   name: "Tecnocoop",
-  legalName: "Cooperativa para el espacio digital público",
+  legalName: "Cooperativa para el Espacio Público Digital",
   tagline: "Software y hardware cooperativo, al servicio de las personas",
   contactEmail: "contacto@tecnocoop.aebn.cl", // TODO: reemplazar por el correo real
   url: "https://tecnocoop.aebn.cl",
