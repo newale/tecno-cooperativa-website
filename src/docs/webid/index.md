@@ -8,7 +8,7 @@ order: 3
 
 Un **WebID** es una URL que te identifica a ti (o a una aplicación) dentro del ecosistema Solid — algo así como tu nombre de usuario, pero abierto, descentralizado y que no depende de ninguna plataforma en particular.
 
-Ejemplo de forma: `https://tuusuario.tecnocoop.aebn.cl/profile/card#me`
+Tiene esta forma: `https://pods-rpi-tc.aebn.cl/tu-usuario/profile/card#me`, donde *tu-usuario* es el nombre de tu Pod.
 
 ## ¿Para qué sirve?
 
