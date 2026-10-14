@@ -337,6 +337,65 @@ a {
   font-size: 0.95rem;
 }
 
+/* espacio */
+.descarga {
+  text-align: center;
+}
+
+.captura {
+  margin: 2rem 0;
+}
+
+.captura img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.captura figcaption {
+  margin-top: 0.6rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.app-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: calc(var(--radius) / 2);
+}
+
+.app-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.app-card--wip {
+  opacity: 0.75;
+}
+
+.etiqueta {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: var(--color-degraded-bg);
+  color: var(--color-degraded);
+}
+
+.app-card__url {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
 /* Sections */
 section {
   padding: 2.5rem 0;

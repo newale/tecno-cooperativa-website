@@ -19,17 +19,8 @@ description: "Tecnocoop es una cooperativa digital de software y hardware en for
     <div class="cta">
       <h2>Descarga espacio</h2>
       <p>La app de Tecnocoop para compartir archivos y carpetas desde tu Pod. Versión {{ espacio.version }}.</p>
-      {# Sin JS queda Mac por defecto; js/descarga.js cambia el botón principal al sistema detectado. #}
-      <div class="split-btn" data-descarga>
-        <a class="btn btn-primary split-btn__main" href="{{ espacio.dmgUrl }}" data-descarga-main>Descargar para Mac</a>
-        <button type="button" class="btn btn-primary split-btn__toggle" aria-haspopup="true" aria-expanded="false" aria-controls="descarga-menu" aria-label="Otros sistemas operativos"></button>
-        <ul class="split-btn__menu" id="descarga-menu">
-          <li><a href="{{ espacio.dmgUrl }}" data-os="mac" data-label="Mac">Mac <span>.dmg</span></a></li>
-          <li><a href="{{ espacio.windowsUrl }}" data-os="windows" data-label="Windows">Windows <span>.exe x64</span></a></li>
-          <li><a href="{{ espacio.ubuntuUrl }}" data-os="ubuntu" data-label="Ubuntu">Ubuntu <span>.deb amd64</span></a></li>
-        </ul>
-      </div>
-      <p class="split-btn__hint"><a href="/docs/comenzando/instalar-espacio/">Guía de instalación →</a></p>
+      {% include "partials/descarga.njk" %}
+      <p class="split-btn__hint"><a href="/espacio/">Conoce espacio</a> · <a href="/docs/comenzando/instalar-espacio/">Guía de instalación</a></p>
     </div>
   </div>
 </section>

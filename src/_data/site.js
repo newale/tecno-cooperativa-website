@@ -11,6 +11,7 @@ module.exports = {
       dropdown: [
         { text: "Pods", url: "/pods/" },
         { text: "WebID", url: "/webid/" },
+        { text: "espacio", url: "/espacio/" },
       ],
     },
     { text: "Sobre nosotros", url: "/sobre/" },

@@ -1,0 +1,57 @@
+---
+layout: base.njk
+title: espacio
+description: "espacio, la app de escritorio de Tecnocoop: tus archivos y aplicaciones sobre tu Pod, en Mac, Windows y Ubuntu."
+permalink: /espacio/
+---
+<section class="page-content">
+  <div class="wrap">
+    <h1>espacio</h1>
+    <p class="lede">La app de escritorio de {{ site.name }}: trabaja con los archivos de tu Pod y usa aplicaciones que guardan tus datos donde tú decides.</p>
+
+    <div class="descarga">
+      {% include "partials/descarga.njk" %}
+    </div>
+    <p class="split-btn__hint descarga">Versión {{ espacio.version }} · <a href="/docs/comenzando/instalar-espacio/">Guía de instalación</a></p>
+
+    {% set captura = "espacio" | imagen %}
+    {% if captura %}
+    <figure class="captura">
+      <img src="{{ captura }}" alt="Pantalla de inicio de espacio con sus aplicaciones: Archivos, escribir, Estudio, archivador, Música, Notas y Por Hacer">
+    </figure>
+    {% endif %}
+
+    <h2>¿Qué es espacio?</h2>
+    <p>espacio inicia sesión con tu <a href="/webid/">WebID</a> y se conecta a tu <a href="/pods/">Pod</a>. Desde ahí abres aplicaciones que leen y guardan en tu propio Pod, no en los servidores de cada aplicación. Cada una solo puede tocar su propia carpeta, salvo las que necesitan más, como Archivos.</p>
+    <p>Así, si mañana dejas de usar una aplicación, tus datos siguen ahí.</p>
+
+    <h2>Aplicaciones incluidas</h2>
+    <p>Vienen con espacio y funcionan directamente sobre tu Pod.</p>
+    <div class="cards">
+      {% for app in espacioApps.nativas %}
+      {% set img = ("apps/" + app.id) | imagen %}
+      <div class="card app-card{% if app.wip %} app-card--wip{% endif %}">
+        {% if img %}<img src="{{ img }}" alt="Captura de {{ app.name }}" loading="lazy">{% endif %}
+        <h3>{{ app.name }}{% if app.wip %} <span class="etiqueta">En construcción</span>{% endif %}</h3>
+        <p>{{ app.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+
+    <h2>Del catálogo</h2>
+    <p>Aplicaciones web que se abren dentro de espacio y guardan sus datos en tu Pod, sin pedirte otra cuenta.</p>
+    <div class="cards">
+      {% for app in espacioApps.catalogo %}
+      {% set img = ("apps/" + app.id) | imagen %}
+      <div class="card app-card">
+        {% if img %}<img src="{{ img }}" alt="Captura de {{ app.name }}" loading="lazy">{% endif %}
+        <h3>{{ app.name }}</h3>
+        <p>{{ app.description }}</p>
+        <p class="app-card__url">{{ app.url | replace("https://", "") }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<script src="/js/descarga.js" defer></script>
