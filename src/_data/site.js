@@ -8,7 +8,10 @@ module.exports = {
     { text: "Inicio", url: "/" },
     {
       text: "Servicios",
-      dropdown: [{ text: "Pods", url: "/pods/" }],
+      dropdown: [
+        { text: "Pods", url: "/pods/" },
+        { text: "WebID", url: "/webid/" },
+      ],
     },
     { text: "Sobre nosotros", url: "/sobre/" },
     { text: "Documentación", url: "/docs/comenzando/instalar-espacio/" },

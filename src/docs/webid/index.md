@@ -20,4 +20,4 @@ Ejemplo de forma: `https://tuusuario.tecnocoop.aebn.cl/profile/card#me`
 
 Tu WebID normalmente vive dentro de tu propio Pod, en un documento de perfil legible tanto por personas como por máquinas (siguiendo estándares abiertos como RDF). Ese documento es también el lugar donde se declaran los permisos: qué otras identidades pueden leer o escribir en tus datos.
 
-Para los pasos concretos de uso día a día, ver [Cómo usar tu Pod](/docs/pods/como-usarlos/).
+Para los pasos concretos de uso día a día, revisa [Cómo usar tu Pod](/docs/pods/como-usarlos/). Si quieres solicitar tu WebID, visita la [página de WebID](/webid/).

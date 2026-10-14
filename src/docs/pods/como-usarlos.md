@@ -14,7 +14,7 @@ Por ahora, la forma de solicitar un Pod es contactando directamente a la coopera
 
 ## 2. Inicia sesión con tu WebID
 
-Cuando tengas tu Pod, vas a tener también un [WebID](/docs/pods/webid/): tu identidad dentro del ecosistema Solid. Con él puedes iniciar sesión en cualquier aplicación compatible, sin crear una cuenta nueva en cada una.
+Cuando tengas tu Pod, vas a tener también un [WebID](/docs/webid/): tu identidad dentro del ecosistema Solid. Con él puedes iniciar sesión en cualquier aplicación compatible, sin crear una cuenta nueva en cada una.
 
 ## 3. Elige qué compartir
 
