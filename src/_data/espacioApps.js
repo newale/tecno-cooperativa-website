@@ -1,6 +1,5 @@
 // Aplicaciones de espacio que se muestran en /espacio/. Sale de LOCAL_APPS
 // (apps/shell/src/App.tsx) y de packages/catalog/apps/ del repo de espacio.
-// La captura de cada app es opcional: static/imagenes/apps/<id>.{png,jpg,webp}.
 module.exports = {
   nativas: [
     { id: "archivos", name: "Archivos", description: "Navega, sube y descarga los archivos y carpetas de tu Pod, y compártelos con otras personas." },

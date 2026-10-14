@@ -1,21 +1,8 @@
-const fs = require("fs");
-const path = require("path");
-
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "src/static": "static" });
-
-  // "apps/notas" -> "/static/imagenes/apps/notas.png" si existe la imagen (png, jpg o webp), o "" si no.
-  // Así las capturas se pueden ir sumando sin tocar las plantillas.
-  eleventyConfig.addFilter("imagen", (nombre) => {
-    for (const ext of ["png", "jpg", "webp"]) {
-      const ruta = `static/imagenes/${nombre}.${ext}`;
-      if (fs.existsSync(path.join("src", ruta))) return `/${ruta}`;
-    }
-    return "";
-  });
   // Feed de actualizaciones de espacio: latest.json + su firma, tal cual.
   eleventyConfig.addPassthroughCopy({ "src/espacio/updates": "espacio/updates" });
 
