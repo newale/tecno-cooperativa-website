@@ -5,6 +5,12 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.4.0] - 2026-10-13
+
+### Añadido
+- Página propia de espacio (`/espacio/`), con botón de descarga, captura de la app y la lista de aplicaciones disponibles: las incluidas (Archivos, escribir, Estudio; arbol, Calendario y hojas en construcción) y las del catálogo (Por Hacer, Notas, Música y archivador).
+- espacio en el menú Servicios y enlace «Conoce espacio» bajo el botón de descarga de la portada.
+
 ## [1.3.0] - 2026-10-13
 
 ### Añadido
@@ -50,7 +56,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 ### Corregido
 - El dropdown de Servicios quedaba siempre abierto.
 
-[Sin publicar]: https://github.com/newale/tecno-cooperativa-website/compare/v1.3.0...HEAD
+[Sin publicar]: https://github.com/newale/tecno-cooperativa-website/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/newale/tecno-cooperativa-website/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/newale/tecno-cooperativa-website/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/newale/tecno-cooperativa-website/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/newale/tecno-cooperativa-website/releases/tag/v1.1.0
