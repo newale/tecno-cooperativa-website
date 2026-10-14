@@ -5,6 +5,20 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.3.0] - 2026-10-13
+
+### Añadido
+- Botón de descarga de espacio que detecta el sistema operativo (Mac, Windows o Ubuntu), con un menú para elegir otro sistema y un enlace a la guía de instalación.
+
+### Cambiado
+- Los botones del hero son ahora «Conoce WebID» y «Conoce Pods»; «Hazte socio/a» sigue más abajo en la portada y en Sobre nosotros.
+- El texto del hero presenta a Tecnocoop como cooperativa digital.
+- Nombre legal actualizado a «Cooperativa para el Espacio Público Digital».
+- El ejemplo de WebID usa el dominio real de los Pods (`pods-rpi-tc.aebn.cl`).
+
+### Eliminado
+- Los tres botones de descarga separados de la portada, reemplazados por el botón único.
+
 ## [1.2.0] - 2026-10-13
 
 ### Añadido
@@ -36,6 +50,7 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 ### Corregido
 - El dropdown de Servicios quedaba siempre abierto.
 
-[Sin publicar]: https://github.com/newale/tecno-cooperativa-website/compare/v1.2.0...HEAD
+[Sin publicar]: https://github.com/newale/tecno-cooperativa-website/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/newale/tecno-cooperativa-website/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/newale/tecno-cooperativa-website/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/newale/tecno-cooperativa-website/releases/tag/v1.1.0
