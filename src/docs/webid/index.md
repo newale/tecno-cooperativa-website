@@ -1,10 +1,10 @@
 ---
-title: "WebID"
+title: "¿Qué es un WebID?"
 description: "Qué es un WebID y para qué sirve dentro del ecosistema Solid."
-order: 3
+order: 20
 ---
 
-# WebID
+# ¿Qué es un WebID?
 
 Un **WebID** es una URL que te identifica a ti (o a una aplicación) dentro del ecosistema Solid — algo así como tu nombre de usuario, pero abierto, descentralizado y que no depende de ninguna plataforma en particular.
 
@@ -20,4 +20,4 @@ Tiene esta forma: `https://pods-rpi-tc.aebn.cl/tu-usuario/profile/card#me`, dond
 
 Tu WebID normalmente vive dentro de tu propio Pod, en un documento de perfil legible tanto por personas como por máquinas (siguiendo estándares abiertos como RDF). Ese documento es también el lugar donde se declaran los permisos: qué otras identidades pueden leer o escribir en tus datos.
 
-Para los pasos concretos de uso día a día, revisa [Cómo usar tu Pod](/docs/pods/como-usarlos/). Si quieres solicitar tu WebID, visita la [página de WebID](/webid/).
+Si todavía no tienes uno, sigue la guía [Crea tu WebID](/docs/comenzando/crear-webid/). Para saber dónde quedan tus datos, revisa [¿Qué son los Pods?](/docs/pods/).

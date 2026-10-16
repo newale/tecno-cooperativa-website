@@ -1,7 +1,7 @@
 ---
 title: "¿Qué son los Pods?"
 description: "Introducción a los Pods Solid: qué son y para qué sirven."
-order: 1
+order: 30
 ---
 
 # ¿Qué son los Pods?

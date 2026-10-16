@@ -1,7 +1,7 @@
 ---
 title: "Cómo usar tu Pod"
 description: "Guía básica para empezar a usar tu Pod Solid."
-order: 2
+order: 31
 ---
 
 # Cómo usar tu Pod
@@ -10,15 +10,15 @@ Esta es una guía básica para empezar. Se irá ampliando a medida que el servic
 
 ## 1. Solicita tu Pod
 
-Por ahora, la forma de solicitar un Pod es contactando directamente a la cooperativa desde la [página de Pods](/pods/).
+Tu Pod se crea junto con tu WebID, en una sola cuenta de la cooperativa. Los pasos están en [Crea tu WebID](/docs/comenzando/crear-webid/).
 
 ## 2. Inicia sesión con tu WebID
 
-Cuando tengas tu Pod, vas a tener también un [WebID](/docs/webid/): tu identidad dentro del ecosistema Solid. Con él puedes iniciar sesión en cualquier aplicación compatible, sin crear una cuenta nueva en cada una.
+Tu [WebID](/docs/webid/) es tu identidad dentro del ecosistema Solid. Con él puedes iniciar sesión en cualquier aplicación compatible, sin crear una cuenta nueva en cada una. La forma más directa de empezar es [conectarlo a espacio](/docs/comenzando/conectar-espacio/).
 
 ## 3. Elige qué compartir
 
-Dentro de tu Pod puedes organizar tus datos en carpetas y archivos, y decidir con quién los compartes: con nadie, con personas específicas, o con aplicaciones puntuales. El acceso se puede revocar en cualquier momento.
+Dentro de tu Pod puedes organizar tus datos en carpetas y archivos, y decidir con quién los compartes: con nadie, con personas específicas, o con aplicaciones puntuales. El acceso se puede revocar en cualquier momento. En espacio, todo esto se hace desde [Archivos](/docs/aplicaciones/archivos/).
 
 ## 4. Úsalo con aplicaciones Solid
 
