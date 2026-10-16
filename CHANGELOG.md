@@ -5,6 +5,14 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.6.1] - 2026-10-16
+
+### Cambiado
+- Más margen sobre el enlace «Lee la documentación» del hero.
+
+### Eliminado
+- La sección «¿Quieres ser parte?» de la portada, el botón «Súmate como socio/a fundador/a» de Sobre nosotros y la página Hazte socio/a (`/hazte-socio/`).
+
 ## [1.6.0] - 2026-10-16
 
 ### Añadido
