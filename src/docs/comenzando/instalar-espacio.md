@@ -6,7 +6,7 @@ order: 1
 
 # Instalar espacio
 
-<p class="lede">Paso 1 de 3 para empezar: instala la app, crea tu WebID y conecta los dos.</p>
+<p class="lede">Paso 1 de 3 para empezar: instala la app, conoce tu WebID y conecta los dos.</p>
 
 **espacio** es la app de escritorio de la cooperativa: te permite trabajar con los archivos y carpetas de tu [Pod](/docs/pods/) y compartirlos. La versión actual es la **{{ espacio.version }}**.
 
@@ -78,6 +78,6 @@ En Windows espacio todavía no se actualiza sola. Para pasar a una versión nuev
 
 En **Configuración → Aplicaciones → Aplicaciones instaladas**, busca **espacio** y elige **Desinstalar**.
 
-## Siguiente paso
-
-Con espacio instalado, lo que falta es tu identidad para entrar: [crea tu WebID](/docs/comenzando/crear-webid/).
+<nav class="siguiente" aria-label="Siguiente">
+  <a href="/docs/comenzando/tu-webid/"><span class="siguiente__etiqueta">Siguiente</span><span class="siguiente__titulo">Conoce tu WebID →</span></a>
+</nav>

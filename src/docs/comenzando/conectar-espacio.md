@@ -6,9 +6,9 @@ order: 3
 
 # Conecta espacio con tu WebID
 
-<p class="lede">Paso 3 de 3 para empezar: instala la app, crea tu WebID y conecta los dos.</p>
+<p class="lede">Paso 3 de 3 para empezar: instala la app, conoce tu WebID y conecta los dos.</p>
 
-Para este paso necesitas tener [espacio instalado](/docs/comenzando/instalar-espacio/) y [tu WebID](/docs/comenzando/crear-webid/) creado.
+Para este paso necesitas tener [espacio instalado](/docs/comenzando/instalar-espacio/) y a mano el correo y la contraseña de [tu cuenta](/docs/comenzando/tu-webid/).
 
 ## 1. Abre la configuración de tu cuenta
 
@@ -45,6 +45,8 @@ Si tienes más de un WebID, por ejemplo uno personal y otro de una organización
 
 En **Configuración → Tu cuenta**, haz clic en **Cerrar sesión**. Si tenías otras cuentas guardadas, queda activa una de ellas.
 
-## Siguiente paso
+Ya estás dentro. Un buen punto de partida es Archivos, para ver y compartir lo que hay en tu Pod.
 
-Ya estás dentro. Empieza por [Archivos](/docs/aplicaciones/archivos/) para ver y compartir lo que hay en tu Pod.
+<nav class="siguiente" aria-label="Siguiente">
+  <a href="/docs/aplicaciones/archivos/"><span class="siguiente__etiqueta">Siguiente</span><span class="siguiente__titulo">Empieza con Archivos →</span></a>
+</nav>
