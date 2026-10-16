@@ -1,11 +1,11 @@
 {
-  "version": "1.10.1",
+  "version": "1.10.2",
   "dmg": {
-    "file": "espacio-1.10.1-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.10.1-arm64.dmg",
-    "sha512": "OOFWwocqwyitc7JP43rYkwycY+hx4+lc+fCv5l/JxCCcPpRDB0ecjtaUMYA9iv0ZxbmbtHdxwsB7nvl3UQoVVQ==",
-    "size": 126877127
+    "file": "espacio-1.10.2-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.10.2-arm64.dmg",
+    "sha512": "fvBceZAjuxzUjykKYjrMG1dJHUE5oz7A7JT9uh10fUaHo7yec4qQHWBofn0LvgFsVupQTujPC923er/prJNQcg==",
+    "size": 126879918
   },
-  "notes": "Todas las apps con mayúscula inicial",
-  "date": "2026-10-16T01:55:12.596Z"
+  "notes": "Los botones de la ventana quedan centrados en la barra superior.",
+  "date": "2026-10-16T14:10:07.805Z"
 }
