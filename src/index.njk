@@ -11,6 +11,7 @@ description: "Tecnocoop es una cooperativa digital de software y hardware en eta
       <a class="btn btn-primary" href="/webid/">Conoce WebID</a>
       <a class="btn btn-secondary" href="/pods/">Conoce Pods</a>
     </div>
+    <p class="hero__docs"><a href="/docs/comenzando/instalar-espacio/">Lee la documentación</a></p>
   </div>
 </section>
 
@@ -19,8 +20,11 @@ description: "Tecnocoop es una cooperativa digital de software y hardware en eta
     <div class="cta">
       <h2>Descarga espacio</h2>
       <p>La app de Tecnocoop para compartir archivos y carpetas desde tu Pod. Versión {{ espacio.version }}.</p>
-      {% include "partials/descarga.njk" %}
-      <p class="split-btn__hint"><a href="/espacio/">Conoce espacio</a> · <a href="/docs/comenzando/instalar-espacio/">Guía de instalación</a></p>
+      <div class="btn-row">
+        {% include "partials/descarga.njk" %}
+        <a class="btn btn-secondary" href="/espacio/">Conoce espacio</a>
+      </div>
+      <p class="split-btn__hint"><a href="/docs/comenzando/instalar-espacio/">Guía de instalación</a></p>
     </div>
   </div>
 </section>
@@ -31,14 +35,14 @@ description: "Tecnocoop es una cooperativa digital de software y hardware en eta
     <p>Estamos partiendo con nuestros primeros servicios, y sumaremos más a medida que la cooperativa crezca.</p>
     <div class="cards">
       <div class="card card--featured">
-        <h3>Pods (Solid)</h3>
-        <p>Tu propio espacio de datos personales, bajo el estándar Solid. Guarda y controla tu información, y decide quién accede a ella.</p>
-        <p><a href="/pods/">Ver más sobre Pods →</a></p>
-      </div>
-      <div class="card">
         <h3>WebID</h3>
         <p>Tu identidad abierta en la web. Inicia sesión en aplicaciones Solid sin crear una cuenta nueva en cada una y sin depender de ninguna plataforma.</p>
         <p><a href="/webid/">Ver más sobre WebID →</a></p>
+      </div>
+      <div class="card">
+        <h3>Pods (Solid)</h3>
+        <p>Tu propio espacio de datos personales, bajo el estándar Solid. Guarda y controla tu información, y decide quién accede a ella.</p>
+        <p><a href="/pods/">Ver más sobre Pods →</a></p>
       </div>
       <div class="card">
         <h3>Próximamente</h3>
@@ -52,7 +56,7 @@ description: "Tecnocoop es una cooperativa digital de software y hardware en eta
   <div class="wrap">
     <h2>Sobre la cooperativa</h2>
     <p>{{ site.name }} ({{ site.legalName }}) es un proyecto {{ site.etapa }} que busca ofrecer alternativas de software y hardware cooperativas, éticas y centradas en las personas.</p>
-    <p><a href="/sobre/">Conoce más sobre nosotros →</a> · <a href="/sobre/#estado">¿Qué significa esta etapa?</a></p>
+    <p><a href="/sobre/">Conoce más sobre nosotros</a> · <a href="/sobre/#estado">¿Qué significa esta etapa?</a></p>
   </div>
 </section>
 
