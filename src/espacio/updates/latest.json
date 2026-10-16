@@ -1,11 +1,11 @@
 {
-  "version": "1.9.0",
+  "version": "1.9.1",
   "dmg": {
-    "file": "espacio-1.9.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.9.0-arm64.dmg",
-    "sha512": "HdKtgq9cubsg6uLH01Pl7RjrNj1O2tO60oP1kh1K5c9pZ953r2ICjwT/eyjBrwu3BP5FIf0OYm+V8D0CnJjDgA==",
-    "size": 126873354
+    "file": "espacio-1.9.1-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.9.1-arm64.dmg",
+    "sha512": "1ufUyiwCkBpSrRJVrKo5C4KT42e5muNx3ca30vBMl2f3wRcckTpYPbh8yIG0O3G4/pk+CH0kLk0iMi+Zh4Ew/A==",
+    "size": 126872877
   },
-  "notes": "Iconos de las apps en pixel art",
-  "date": "2026-10-16T00:36:38.207Z"
+  "notes": "Vuelven los iconos anteriores de las apps",
+  "date": "2026-10-16T01:21:30.426Z"
 }
