@@ -22,4 +22,7 @@ En lugar de que tus datos —fotos, contactos, documentos, publicaciones— viva
 
 Como cooperativa, creemos que la infraestructura digital debería estar al servicio de las personas, no al revés. Ofrecer Pods es una forma concreta de poner en práctica esa idea: alojamiento cooperativo, transparente y centrado en quienes lo usan.
 
-Próximos temas: [cómo usar tu Pod](/docs/pods/como-usarlos/) y [qué es un WebID](/docs/webid/).
+## Sigue leyendo
+
+- [Cómo usar tu Pod](/docs/pods/como-usarlos/)
+- [¿Qué es un WebID?](/docs/webid/)
