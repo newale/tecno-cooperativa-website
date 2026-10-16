@@ -1,4 +1,7 @@
 module.exports = function (eleventyConfig) {
+  // Versión del sitio en el enlace al CSS, para que cada release no quede tapada por la caché.
+  eleventyConfig.addGlobalData("pkg", { version: require("./package.json").version });
+
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
