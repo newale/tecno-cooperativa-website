@@ -5,6 +5,11 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.8.1] - 2026-10-16
+
+### Corregido
+- En «Crea tu Pod y tu WebID», la explicación de por qué los botones del servidor aparecen en inglés queda más clara.
+
 ## [1.8.0] - 2026-10-16
 
 ### Añadido
