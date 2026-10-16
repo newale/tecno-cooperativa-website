@@ -5,6 +5,19 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.7.0] - 2026-10-16
+
+### Añadido
+- Enlace «Siguiente» alineado a la derecha al final de cada guía de Comenzando, que lleva al paso que sigue.
+- Enlace a la documentación al final de las páginas de WebID, Pods y espacio.
+
+### Cambiado
+- La guía «Crea tu WebID» pasa a «Tu WebID» (`/docs/comenzando/tu-webid/`): da por hecho que ya tienes cuenta y explica cómo son tu WebID y tu Pod, y dónde verlos.
+- «Cómo usar tu Pod» parte de que el Pod viene con tu cuenta.
+
+### Eliminado
+- Los botones «Solicitar un WebID» y «Solicitar un Pod», y los avisos que invitaban a escribir a la cooperativa.
+
 ## [1.6.1] - 2026-10-16
 
 ### Cambiado
