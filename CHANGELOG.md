@@ -5,6 +5,14 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.7.1] - 2026-10-16
+
+### Corregido
+- El navegador podía seguir usando una versión vieja de la hoja de estilos después de una actualización del sitio (por ejemplo, el enlace «Siguiente» de «Instalar espacio» se veía sin estilo). Ahora el enlace al CSS lleva la versión del sitio.
+
+### Cambiado
+- «¿Qué son los Pods?» termina con una sección «Sigue leyendo» con los enlaces a «Cómo usar tu Pod» y «¿Qué es un WebID?», en vez de una línea de texto.
+
 ## [1.7.0] - 2026-10-16
 
 ### Añadido
