@@ -18,7 +18,7 @@ Cuando te sumas a la cooperativa recibes una **cuenta**: un correo y una contras
 1. Abre [pods-rpi-tc.aebn.cl/.account/](https://pods-rpi-tc.aebn.cl/.account/) en tu navegador.
 2. Inicia sesión con el correo y la contraseña de tu cuenta.
 
-Llegas a la página de tu cuenta. Las páginas del servidor están en inglés: los nombres de los botones van tal cual aparecen.
+Llegas a la página de tu cuenta. Las páginas del servidor están en inglés, así que en esta guía los botones y campos aparecen con su nombre original, por ejemplo **Create pod**.
 
 ## 2. Crea tu Pod
 
