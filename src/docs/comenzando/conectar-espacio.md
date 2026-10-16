@@ -6,9 +6,9 @@ order: 3
 
 # Conecta espacio con tu WebID
 
-<p class="lede">Paso 3 de 3 para empezar: instala la app, conoce tu WebID y conecta los dos.</p>
+<p class="lede">Paso 3 de 3 para empezar: crea tu Pod y tu WebID, instala espacio y conéctalos.</p>
 
-Para este paso necesitas tener [espacio instalado](/docs/comenzando/instalar-espacio/) y a mano el correo y la contraseña de [tu cuenta](/docs/comenzando/tu-webid/).
+Para este paso necesitas haber [creado tu Pod y tu WebID](/docs/comenzando/crear-pod/), tener [espacio instalado](/docs/comenzando/instalar-espacio/) y a mano el correo y la contraseña de tu cuenta.
 
 ## 1. Abre la configuración de tu cuenta
 

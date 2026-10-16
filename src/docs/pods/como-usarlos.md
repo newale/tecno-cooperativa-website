@@ -8,9 +8,9 @@ order: 31
 
 Esta es una guía básica para empezar. Se irá ampliando a medida que el servicio crezca.
 
-## 1. Tu Pod viene con tu cuenta
+## 1. Crea tu Pod
 
-Tu cuenta de la cooperativa incluye tu Pod y tu WebID. En [Tu WebID](/docs/comenzando/tu-webid/) ves cómo son sus direcciones.
+Tu cuenta de la cooperativa llega vacía: el Pod lo creas tú, y con él tu WebID. Los pasos están en [Crea tu Pod y tu WebID](/docs/comenzando/crear-pod/).
 
 ## 2. Inicia sesión con tu WebID
 

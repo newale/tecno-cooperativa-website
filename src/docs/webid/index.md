@@ -20,4 +20,4 @@ Tiene esta forma: `https://pods-rpi-tc.aebn.cl/tu-usuario/profile/card#me`, dond
 
 Tu WebID normalmente vive dentro de tu propio Pod, en un documento de perfil legible tanto por personas como por máquinas (siguiendo estándares abiertos como RDF). Ese documento es también el lugar donde se declaran los permisos: qué otras identidades pueden leer o escribir en tus datos.
 
-Para ver cómo es el tuyo y dónde encontrarlo, revisa [Tu WebID](/docs/comenzando/tu-webid/). Para saber dónde quedan tus datos, revisa [¿Qué son los Pods?](/docs/pods/).
+Si todavía no tienes el tuyo, sigue la guía [Crea tu Pod y tu WebID](/docs/comenzando/crear-pod/). Para saber dónde quedan tus datos, revisa [¿Qué son los Pods?](/docs/pods/).

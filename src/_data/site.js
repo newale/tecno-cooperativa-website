@@ -17,7 +17,7 @@ module.exports = {
       ],
     },
     { text: "Sobre nosotros", url: "/sobre/" },
-    { text: "Documentación", url: "/docs/comenzando/instalar-espacio/" },
+    { text: "Documentación", url: "/docs/comenzando/crear-pod/" },
   ],
   // Siempre se renderiza al final del nav, ver partials/nav.njk.
   statusNavItem: { text: "Estado", url: "/estado/" },

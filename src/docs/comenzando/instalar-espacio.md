@@ -1,14 +1,14 @@
 ---
 title: "Instalar espacio"
 description: "Cómo descargar e instalar espacio, la app de escritorio de Tecnocoop, en Mac, Ubuntu y Windows."
-order: 1
+order: 2
 ---
 
 # Instalar espacio
 
-<p class="lede">Paso 1 de 3 para empezar: instala la app, conoce tu WebID y conecta los dos.</p>
+<p class="lede">Paso 2 de 3 para empezar: crea tu Pod y tu WebID, instala espacio y conéctalos.</p>
 
-**espacio** es la app de escritorio de la cooperativa: te permite trabajar con los archivos y carpetas de tu [Pod](/docs/pods/) y compartirlos. La versión actual es la **{{ espacio.version }}**.
+**espacio** es la app de escritorio de la cooperativa: te permite trabajar con los archivos y carpetas de tu [Pod](/docs/pods/) y compartirlos. Si todavía no creas tu Pod, empieza por el [paso 1](/docs/comenzando/crear-pod/). La versión actual es la **{{ espacio.version }}**.
 
 ## Mac
 
@@ -79,5 +79,5 @@ En Windows espacio todavía no se actualiza sola. Para pasar a una versión nuev
 En **Configuración → Aplicaciones → Aplicaciones instaladas**, busca **espacio** y elige **Desinstalar**.
 
 <nav class="siguiente" aria-label="Siguiente">
-  <a href="/docs/comenzando/tu-webid/"><span class="siguiente__etiqueta">Siguiente</span><span class="siguiente__titulo">Conoce tu WebID →</span></a>
+  <a href="/docs/comenzando/conectar-espacio/"><span class="siguiente__etiqueta">Siguiente</span><span class="siguiente__titulo">Conecta espacio con tu WebID →</span></a>
 </nav>
