@@ -1,11 +1,11 @@
 {
-  "version": "1.9.1",
+  "version": "1.10.0",
   "dmg": {
-    "file": "espacio-1.9.1-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.9.1-arm64.dmg",
-    "sha512": "1ufUyiwCkBpSrRJVrKo5C4KT42e5muNx3ca30vBMl2f3wRcckTpYPbh8yIG0O3G4/pk+CH0kLk0iMi+Zh4Ew/A==",
-    "size": 126872877
+    "file": "espacio-1.10.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.10.0-arm64.dmg",
+    "sha512": "vMjVpOAjVtJfYGylNScX/XKudJnJk/u0g8gIy+DN7wusbqfb/lTqWvVWCpOISZCN7Lx98II47/9wI4fHM8d+cA==",
+    "size": 126878433
   },
-  "notes": "Vuelven los iconos anteriores de las apps",
-  "date": "2026-10-16T01:21:30.426Z"
+  "notes": "Agregar o quitar programas, pestañas fijadas e Inicio",
+  "date": "2026-10-16T01:45:25.498Z"
 }
