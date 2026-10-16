@@ -1,11 +1,11 @@
 {
-  "version": "1.8.0",
+  "version": "1.9.0",
   "dmg": {
-    "file": "espacio-1.8.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.8.0-arm64.dmg",
-    "sha512": "riV769nIvWrlXZKK/8qKEJZlhXKwWGwO4zJSrDXM2tiZelUBFuV4uwVVElMCf09Rd2w+NnlSOSTBOGcslzqg0g==",
-    "size": 126872849
+    "file": "espacio-1.9.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.9.0-arm64.dmg",
+    "sha512": "HdKtgq9cubsg6uLH01Pl7RjrNj1O2tO60oP1kh1K5c9pZ953r2ICjwT/eyjBrwu3BP5FIf0OYm+V8D0CnJjDgA==",
+    "size": 126873354
   },
-  "notes": "Icono propio: una «e» en pixel art",
-  "date": "2026-10-15T23:27:34.172Z"
+  "notes": "Iconos de las apps en pixel art",
+  "date": "2026-10-16T00:36:38.207Z"
 }
