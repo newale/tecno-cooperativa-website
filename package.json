@@ -1,6 +1,6 @@
 {
   "name": "tecnocoop-website",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Sitio web de Tecnocoop, Cooperativa para el Espacio Público Digital",
   "private": true,
   "scripts": {

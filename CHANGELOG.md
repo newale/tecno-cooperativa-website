@@ -5,6 +5,22 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.6.0] - 2026-10-16
+
+### Añadido
+- Botón secundario «Conoce espacio» junto al de descarga en la portada, con la guía de instalación como enlace debajo.
+- Enlace «Lee la documentación» bajo los botones del hero.
+- Guías nuevas en Comenzando, en tres pasos: «Instalar espacio», «Crea tu WebID» y «Conecta espacio con tu WebID», cada una con su siguiente paso.
+- Sección «Aplicaciones» en la documentación, con una guía de Archivos: navegar el Pod, subir y descargar, compartir y sincronizar carpetas del computador.
+
+### Cambiado
+- WebID va antes que Pods en las tarjetas de servicios, en el menú Servicios y en la documentación.
+- La página de documentación de WebID pasa a llamarse «¿Qué es un WebID?».
+- «Cómo usar tu Pod» enlaza a las nuevas guías.
+
+### Eliminado
+- La flecha del enlace «Conoce más sobre nosotros».
+
 ## [1.5.0] - 2026-10-13
 
 ### Añadido
