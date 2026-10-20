@@ -1,11 +1,11 @@
 {
-  "version": "1.11.0",
+  "version": "1.12.0",
   "dmg": {
-    "file": "espacio-1.11.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.11.0-arm64.dmg",
-    "sha512": "fJ83xbj4yWb+APrfm13Rl/JAVVf+sn833tuKf+uk8TQFbDasdG8jlbEbY5+TjnsUBbEEmNtanqVNFCK3l8MnOA==",
-    "size": 126880490
+    "file": "espacio-1.12.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.12.0-arm64.dmg",
+    "sha512": "7cVdLccMt9a6v3dxOPxvTJFU4xx4WKZ4glWC+ILvOix7R3Axyegx273hqubmBziqjhs8jWQcYJX+6YYzI7D/qQ==",
+    "size": 126882600
   },
-  "notes": "Estudio suma la Audioteca: publica series de charlas, crónicas, clases o relatos en audioteca.aebn.cl, ordenadas por temática y escuchables en cualquier app de podcasts.",
-  "date": "2026-10-20T14:48:55.753Z"
+  "notes": "Escribir se simplifica: una sola hoja con formato, sin vistas ni Markdown a la vista; guarda solo mientras escribes, también sin conexión, y puedes elegir letra con o sin serifa.",
+  "date": "2026-10-20T18:31:42.053Z"
 }
