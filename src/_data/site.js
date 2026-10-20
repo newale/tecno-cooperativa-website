@@ -13,7 +13,6 @@ module.exports = {
       dropdown: [
         { text: "WebID", url: "/webid/" },
         { text: "Pods", url: "/pods/" },
-        { text: "espacio", url: "/espacio/" },
       ],
     },
     { text: "Aplicaciones", url: "/aplicaciones/" },

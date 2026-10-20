@@ -6,7 +6,7 @@ order: 55
 
 # Por Hacer
 
-**Por Hacer** es una lista de tareas con proyectos y planificación por semana. Puedes abrirla en el navegador, en [por-hacer.aebn.cl](https://por-hacer.aebn.cl), o dentro de [espacio](/espacio/), desde el catálogo de aplicaciones.
+**Por Hacer** es una lista de tareas con proyectos y planificación por semana. Puedes abrirla en el navegador, en [por-hacer.aebn.cl](https://por-hacer.aebn.cl), o dentro de [espacio](/aplicaciones/espacio/), desde el catálogo de aplicaciones.
 
 ## Tus tareas
 

@@ -6,7 +6,7 @@ order: 50
 
 # Notas
 
-**Notas** es para tomar notas en Markdown y enlazarlas entre sí, al estilo de Obsidian. Se guardan en la carpeta `Documentos/` de tu [Pod](/docs/pods/). Puedes abrirla en el navegador, en [notas.aebn.cl](https://notas.aebn.cl), o dentro de [espacio](/espacio/), desde el catálogo de aplicaciones.
+**Notas** es para tomar notas en Markdown y enlazarlas entre sí, al estilo de Obsidian. Se guardan en la carpeta `Documentos/` de tu [Pod](/docs/pods/). Puedes abrirla en el navegador, en [notas.aebn.cl](https://notas.aebn.cl), o dentro de [espacio](/aplicaciones/espacio/), desde el catálogo de aplicaciones.
 
 ## Conectar
 

@@ -868,3 +868,27 @@ h2 + .status-card {
 .app-card h3 a {
   color: inherit;
 }
+
+/* espacio, destacada arriba de la lista de aplicaciones */
+.app-destacada {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.app-destacada h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.app-destacada h2 a {
+  color: inherit;
+}
+
+.app-destacada p {
+  margin: 0;
+  max-width: 40rem;
+}

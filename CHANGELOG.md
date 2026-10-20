@@ -5,6 +5,11 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.10.0] - 2026-10-20
+
+### Cambiado
+- espacio pasa de «Servicios» a «Aplicaciones»: su página ahora está en `/aplicaciones/espacio/` y aparece destacada arriba de la lista de aplicaciones. La dirección `/espacio/` redirige a la nueva, y el feed de actualizaciones (`/espacio/updates/`) no cambia.
+
 ## [1.9.0] - 2026-10-20
 
 ### Añadido

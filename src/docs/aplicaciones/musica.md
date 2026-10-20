@@ -6,7 +6,7 @@ order: 45
 
 # Música
 
-**Música** es el sitio donde se escucha la música de los artistas de la cooperativa: [musica.aebn.cl](https://musica.aebn.cl). Puedes abrirla en el navegador o dentro de [espacio](/espacio/), desde el catálogo de aplicaciones.
+**Música** es el sitio donde se escucha la música de los artistas de la cooperativa: [musica.aebn.cl](https://musica.aebn.cl). Puedes abrirla en el navegador o dentro de [espacio](/aplicaciones/espacio/), desde el catálogo de aplicaciones.
 
 No necesitas cuenta para escuchar. Con tu [WebID](/webid/), tus playlists y artistas favoritos se guardan en tu [Pod](/docs/pods/).
 

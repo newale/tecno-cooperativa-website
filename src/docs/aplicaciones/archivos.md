@@ -59,4 +59,4 @@ Cuando ya no la necesites, usa **Dejar de sincronizar**.
 
 ## ¿Y las demás aplicaciones?
 
-El resto de las aplicaciones de espacio guardan sus datos en su propia carpeta de tu Pod, así que también los ves desde Archivos. Revisa la lista completa en la [página de espacio](/espacio/).
+El resto de las aplicaciones de espacio guardan sus datos en su propia carpeta de tu Pod, así que también los ves desde Archivos. Revisa la lista completa en la [página de espacio](/aplicaciones/espacio/).

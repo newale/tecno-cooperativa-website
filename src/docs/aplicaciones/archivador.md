@@ -6,7 +6,7 @@ order: 5
 
 # Archivador
 
-**Archivador** guarda tus referencias bibliográficas y sus PDF, al estilo de Zotero, en tu [Pod](/docs/pods/). Puedes abrirlo en el navegador, en [archivador.aebn.cl](https://archivador.aebn.cl), o dentro de [espacio](/espacio/), desde el catálogo de aplicaciones.
+**Archivador** guarda tus referencias bibliográficas y sus PDF, al estilo de Zotero, en tu [Pod](/docs/pods/). Puedes abrirlo en el navegador, en [archivador.aebn.cl](https://archivador.aebn.cl), o dentro de [espacio](/aplicaciones/espacio/), desde el catálogo de aplicaciones.
 
 <div class="note">
   <p><strong>Archivador está en etapa temprana.</strong> Hoy tiene la biblioteca y el lector de PDF con anotaciones. Vienen las colecciones, importar y exportar (BibTeX, RIS), buscar por DOI o ISBN y los estilos de cita.</p>
