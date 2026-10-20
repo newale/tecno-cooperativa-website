@@ -15,34 +15,17 @@ permalink: /espacio/
     <p class="split-btn__hint descarga">Versión {{ espacio.version }} · <a href="/docs/comenzando/instalar-espacio/">Guía de instalación</a></p>
 
     <figure class="captura">
-      <img src="/static/imagenes/espacio.png" alt="Pantalla de inicio de espacio con sus aplicaciones: Archivos, escribir, Estudio, archivador, Música, Notas y Por Hacer">
+      <img src="/static/imagenes/espacio.png" alt="Pantalla de inicio de espacio con sus aplicaciones: Archivos, Escribir, Estudio, Archivador, Música, Notas y Por Hacer">
     </figure>
 
     <h2>¿Qué es espacio?</h2>
     <p>espacio inicia sesión con tu <a href="/webid/">WebID</a> y se conecta a tu <a href="/pods/">Pod</a>. Desde ahí abres aplicaciones que leen y guardan en tu propio Pod, no en los servidores de cada aplicación. Cada una solo puede tocar su propia carpeta, salvo las que necesitan más, como Archivos.</p>
     <p>Así, si mañana dejas de usar una aplicación, tus datos siguen ahí.</p>
 
-    <h2>Aplicaciones incluidas</h2>
-    <p>Vienen con espacio y funcionan directamente sobre tu Pod.</p>
+    <h2>Aplicaciones</h2>
+    <p>Todas leen y guardan en tu Pod. Las que también son <span class="etiqueta etiqueta--web">Web</span> puedes abrirlas además en el navegador, con tus mismos datos. Revisa todas en <a href="/aplicaciones/">Aplicaciones</a>.</p>
     <div class="cards">
-      {% for app in espacioApps.nativas %}
-      <div class="card app-card{% if app.wip %} app-card--wip{% endif %}">
-        <h3>{{ app.name }}{% if app.wip %} <span class="etiqueta">En construcción</span>{% endif %}</h3>
-        <p>{{ app.description }}</p>
-      </div>
-      {% endfor %}
-    </div>
-
-    <h2>Del catálogo</h2>
-    <p>Aplicaciones web que se abren dentro de espacio y guardan sus datos en tu Pod, sin pedirte otra cuenta.</p>
-    <div class="cards">
-      {% for app in espacioApps.catalogo %}
-      <div class="card app-card">
-        <h3>{{ app.name }}</h3>
-        <p>{{ app.description }}</p>
-        <p class="app-card__url">{{ app.url | replace("https://", "") }}</p>
-      </div>
-      {% endfor %}
+      {% for app in aplicaciones.enEspacio %}{% include "partials/app-card.njk" %}{% endfor %}
     </div>
 
     <nav class="siguiente" aria-label="Documentación">

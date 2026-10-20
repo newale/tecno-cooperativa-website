@@ -16,6 +16,7 @@ module.exports = {
         { text: "espacio", url: "/espacio/" },
       ],
     },
+    { text: "Aplicaciones", url: "/aplicaciones/" },
     { text: "Sobre nosotros", url: "/sobre/" },
     { text: "Documentación", url: "/docs/comenzando/crear-pod/" },
   ],

@@ -1,0 +1,31 @@
+---
+layout: base.njk
+title: Aplicaciones
+description: "Las aplicaciones de Tecnocoop: guardan tus datos en tu Pod, no en los servidores de cada aplicación."
+permalink: /aplicaciones/
+---
+<section class="page-content">
+  <div class="wrap">
+    <h1>Aplicaciones</h1>
+    <p class="lede">Aplicaciones que leen y guardan en tu <a href="/pods/">Pod</a>. Si mañana dejas de usar una, tus datos siguen ahí.</p>
+
+    <dl class="categorias">
+      <div>
+        <dt><span class="etiqueta etiqueta--nativa">Nativa</span></dt>
+        <dd>Se usa dentro de <a href="/espacio/">espacio</a>, la app de escritorio, con la sesión de tu WebID.</dd>
+      </div>
+      <div>
+        <dt><span class="etiqueta etiqueta--web">Web</span></dt>
+        <dd>Se abre en el navegador, desde cualquier computador. Las que llevan las dos etiquetas funcionan de ambas formas, con tus mismos datos.</dd>
+      </div>
+      <div>
+        <dt><span class="etiqueta etiqueta--temprana">En etapa temprana</span></dt>
+        <dd>Ya se puede probar, pero todavía le faltan cosas y puede cambiar.</dd>
+      </div>
+    </dl>
+
+    <div class="cards">
+      {% for app in aplicaciones.apps %}{% include "partials/app-card.njk" %}{% endfor %}
+    </div>
+  </div>
+</section>

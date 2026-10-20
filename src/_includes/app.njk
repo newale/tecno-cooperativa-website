@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+{#- Landing de una aplicación en /aplicaciones/<id>/. Frontmatter: appId (la
+    entrada de _data/aplicaciones.js), title, lede, donde y docsTitulo. -#}
+{%- set app = aplicaciones.porId[appId] -%}
+<section class="page-content">
+  <div class="wrap">
+    <p class="migas"><a href="/aplicaciones/">Aplicaciones</a> / {{ app.name }}</p>
+    <h1>{{ app.name }}</h1>
+    {% include "partials/etiquetas.njk" %}
+    <p class="lede">{{ lede }}</p>
+    <div class="app-acciones">
+      {% if app.url %}<a class="btn btn-primary" href="{{ app.url }}" target="_blank" rel="noopener">Abrir {{ app.url | replace("https://", "") }}</a>{% endif %}
+      <a class="btn {% if app.url %}btn-secondary{% else %}btn-primary{% endif %}" href="{{ app.docs }}">Lee la documentación</a>
+    </div>
+    <p class="app-donde">{{ donde | safe }}</p>
+
+    {{ content | safe }}
+
+    <nav class="siguiente" aria-label="Documentación">
+      <a href="{{ app.docs }}"><span class="siguiente__etiqueta">Documentación</span><span class="siguiente__titulo">{{ docsTitulo }} →</span></a>
+    </nav>
+  </div>
+</section>

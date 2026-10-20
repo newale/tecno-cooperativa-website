@@ -1,0 +1,6 @@
+<div class="card app-card">
+  <h3><a href="{{ app.pagina }}">{{ app.name }}</a></h3>
+  {% include "partials/etiquetas.njk" %}
+  <p>{{ app.description }}</p>
+  {% if app.url %}<p class="app-card__url"><a href="{{ app.url }}" target="_blank" rel="noopener">{{ app.url | replace("https://", "") }} ↗</a></p>{% endif %}
+</div>

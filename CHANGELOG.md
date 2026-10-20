@@ -5,6 +5,19 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.9.0] - 2026-10-20
+
+### Añadido
+- Sección «Aplicaciones» (`/aplicaciones/`) en el menú, con todas las aplicaciones de la cooperativa en una sola lista y, arriba, qué significa cada etiqueta.
+- Una página propia para cada aplicación (Archivador, Archivos, Árbol, Audioteca, Calendario, Escribir, Estudio, Hojas, Música, Notas y Por Hacer), con enlace a su sitio y a su documentación.
+- Guías de todas las aplicaciones en la documentación, en orden alfabético.
+
+### Cambiado
+- Las aplicaciones llevan las etiquetas «Nativa» (se usa dentro de espacio), «Web» (se abre en el navegador) y «En etapa temprana», que reemplaza a «En construcción». Las del catálogo de espacio llevan «Nativa» y «Web».
+- La dirección de cada aplicación web es un enlace que la abre.
+- Los nombres de todas las aplicaciones empiezan con mayúscula: Escribir, Árbol, Hojas y Archivador.
+- En la página de espacio, las aplicaciones van en una sola lista con las mismas etiquetas, y cada una enlaza a su página.
+
 ## [1.8.1] - 2026-10-16
 
 ### Corregido

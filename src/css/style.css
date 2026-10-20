@@ -371,22 +371,74 @@ a {
   flex-wrap: wrap;
 }
 
-.app-card--wip {
-  opacity: 0.75;
-}
-
 .etiqueta {
+  display: inline-block;
   font-size: 0.75rem;
   font-weight: 600;
+  line-height: 1.4;
   padding: 0.15rem 0.5rem;
   border-radius: 999px;
+  white-space: nowrap;
+}
+
+.etiqueta--nativa {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.etiqueta--web {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.etiqueta--temprana {
   background: var(--color-degraded-bg);
   color: var(--color-degraded);
 }
 
+.app-etiquetas {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin: 0 0 0.75rem;
+}
+
+.app-card .app-etiquetas {
+  margin-top: -0.5rem;
+}
+
+/* Qué significa cada etiqueta, arriba de la lista de aplicaciones */
+.categorias {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0 0 2rem;
+}
+
+.categorias div {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+
+.categorias dd {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+@media (max-width: 560px) {
+  .categorias div {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
+
 .app-card__url {
   font-size: 0.85rem;
-  color: var(--color-muted);
+}
+
+.app-card__url a {
+  color: var(--color-primary);
 }
 
 /* Sections */
@@ -788,4 +840,31 @@ h2 + .status-card {
   color: var(--color-primary);
   font-weight: 600;
   font-size: 1.05rem;
+}
+
+/* Landing de una aplicación (/aplicaciones/<id>/) */
+.migas {
+  margin: 0 0 0.5rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.migas a {
+  color: inherit;
+}
+
+.app-acciones {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.app-donde {
+  margin: 0.75rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.app-card h3 a {
+  color: inherit;
 }
