@@ -1,11 +1,11 @@
 {
-  "version": "1.10.2",
+  "version": "1.11.0",
   "dmg": {
-    "file": "espacio-1.10.2-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.10.2-arm64.dmg",
-    "sha512": "fvBceZAjuxzUjykKYjrMG1dJHUE5oz7A7JT9uh10fUaHo7yec4qQHWBofn0LvgFsVupQTujPC923er/prJNQcg==",
-    "size": 126879918
+    "file": "espacio-1.11.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.11.0-arm64.dmg",
+    "sha512": "fJ83xbj4yWb+APrfm13Rl/JAVVf+sn833tuKf+uk8TQFbDasdG8jlbEbY5+TjnsUBbEEmNtanqVNFCK3l8MnOA==",
+    "size": 126880490
   },
-  "notes": "Los botones de la ventana quedan centrados en la barra superior.",
-  "date": "2026-10-16T14:10:07.805Z"
+  "notes": "Estudio suma la Audioteca: publica series de charlas, crónicas, clases o relatos en audioteca.aebn.cl, ordenadas por temática y escuchables en cualquier app de podcasts.",
+  "date": "2026-10-20T14:48:55.753Z"
 }
