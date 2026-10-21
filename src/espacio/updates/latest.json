@@ -1,11 +1,11 @@
 {
-  "version": "1.12.0",
+  "version": "1.13.0",
   "dmg": {
-    "file": "espacio-1.12.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.12.0-arm64.dmg",
-    "sha512": "7cVdLccMt9a6v3dxOPxvTJFU4xx4WKZ4glWC+ILvOix7R3Axyegx273hqubmBziqjhs8jWQcYJX+6YYzI7D/qQ==",
-    "size": 126882600
+    "file": "espacio-1.13.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.13.0-arm64.dmg",
+    "sha512": "sYBpQt5mZMly4I/rgKmbfX5d7Lk5VET5FJi3CyT8LrRVKUWX1BFPYS1ntFbdiBMCbdyeqpr1fhEkYnEvvX9riw==",
+    "size": 126889499
   },
-  "notes": "Escribir se simplifica: una sola hoja con formato, sin vistas ni Markdown a la vista; guarda solo mientras escribes, también sin conexión, y puedes elegir letra con o sin serifa.",
-  "date": "2026-10-20T18:31:42.053Z"
+  "notes": "Encuestador: crea encuestas, publícalas y revisa sus respuestas",
+  "date": "2026-10-21T00:14:37.313Z"
 }
