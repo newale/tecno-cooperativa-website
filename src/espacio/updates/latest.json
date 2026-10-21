@@ -1,11 +1,11 @@
 {
-  "version": "1.13.0",
+  "version": "1.13.1",
   "dmg": {
-    "file": "espacio-1.13.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.13.0-arm64.dmg",
-    "sha512": "sYBpQt5mZMly4I/rgKmbfX5d7Lk5VET5FJi3CyT8LrRVKUWX1BFPYS1ntFbdiBMCbdyeqpr1fhEkYnEvvX9riw==",
-    "size": 126889499
+    "file": "espacio-1.13.1-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.13.1-arm64.dmg",
+    "sha512": "HLAaF12V7+kwBWcm3Hp8aaNj6wfZwTfAYGMRGdAeQVj/M2fd4iK+QaywvVbsSsHnOUhOU9iHomvcYf4OcOEBPw==",
+    "size": 126891565
   },
-  "notes": "Encuestador: crea encuestas, publícalas y revisa sus respuestas",
-  "date": "2026-10-21T00:14:37.313Z"
+  "notes": "Encuestador: ahora puedes despublicar o eliminar encuestas, y el formulario público se abre en encuestador.aebn.cl",
+  "date": "2026-10-21T00:30:24.685Z"
 }
