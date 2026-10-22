@@ -5,6 +5,14 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.12.0] - 2026-10-22
+
+### Añadido
+- Descarga de espacio para Mac con procesador Intel, junto a la de Mac con Apple. El botón de descarga elige la de Intel cuando el navegador permite saberlo (Chrome, Edge y a veces Firefox); en Safari queda la de Apple y la de Intel está en el menú. La guía de instalación explica cómo saber qué procesador tiene tu Mac.
+
+### Cambiado
+- espacio 1.14.0 en el feed de actualizaciones y en los botones de descarga.
+
 ## [1.11.0] - 2026-10-22
 
 ### Añadido
