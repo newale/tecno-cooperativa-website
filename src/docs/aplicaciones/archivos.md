@@ -1,14 +1,17 @@
 ---
 title: "Archivos"
-description: "Cómo usar Archivos en espacio: navegar tu Pod, subir y descargar, compartir con otras personas y sincronizar carpetas de tu computador."
+description: "Cómo usar Archivos (archivos.aebn.cl): navegar tu Pod, subir y descargar, compartir con otras personas y sincronizar carpetas de tu computador."
 order: 10
 ---
 
 # Archivos
 
-**Archivos** es la aplicación de espacio para ver y ordenar todo lo que hay en tu [Pod](/docs/pods/), como el Finder o el Explorador de archivos, pero con tus datos en la cooperativa. Viene instalada con espacio.
+**Archivos** es la aplicación de espacio para ver y ordenar todo lo que hay en tu [Pod](/docs/pods/), como el Finder o el Explorador de archivos, pero con tus datos en la cooperativa. Puedes abrirla en el navegador, en [archivos.aebn.cl](https://archivos.aebn.cl), o dentro de [espacio](/aplicaciones/espacio/), donde viene instalada.
 
-Para usarla necesitas haber [conectado espacio con tu WebID](/docs/comenzando/conectar-espacio/). Si no has iniciado sesión, Archivos te lo pide antes de mostrar nada.
+## Conectar
+
+- **En el navegador**, escribe tu WebID o tu proveedor de identidad, haz clic en **Conectar** e inicia sesión con tu cuenta de la cooperativa.
+- **Dentro de espacio** usa la sesión de espacio: solo necesitas haber [conectado espacio con tu WebID](/docs/comenzando/conectar-espacio/).
 
 ## La barra lateral
 
@@ -18,7 +21,7 @@ A la izquierda están los lugares a los que vuelves seguido:
 - **Favoritos**: lo que marcaste con ☆ para encontrarlo rápido.
 - **Compartidos conmigo**: lo que otras personas te compartieron.
 - **Compartido por mí**: lo que tú compartiste, para revisar quién tiene acceso.
-- **En este equipo**: las carpetas de tu computador que sincronizas con tu Pod.
+- **En este equipo**: las carpetas de tu computador que sincronizas con tu Pod (solo en espacio).
 
 ## Navegar y ordenar
 
@@ -48,7 +51,7 @@ Si activas **Enlace público**, cualquiera que tenga el enlace puede ver el arch
 
 ## Sincronizar una carpeta de tu computador
 
-Puedes mantener una carpeta de tu computador al día con tu Pod, en los dos sentidos:
+Dentro de espacio puedes mantener una carpeta de tu computador al día con tu Pod, en los dos sentidos. En el navegador esta opción no está, porque la página no tiene acceso a tus carpetas.
 
 1. En Archivos, abre la carpeta del Pod donde quieres que quede.
 2. Haz clic en **Sincronizar carpeta local…** y elige la carpeta de tu computador.

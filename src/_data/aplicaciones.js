@@ -6,7 +6,7 @@
 // Cada app tiene su landing en /aplicaciones/<id>/ y su guía en
 // /docs/aplicaciones/<id>/. `temprana` marca las que están en etapa temprana.
 const apps = [
-  { id: "archivos", name: "Archivos", tipos: ["nativa"], description: "Navega, sube y descarga los archivos y carpetas de tu Pod, y compártelos con otras personas." },
+  { id: "archivos", name: "Archivos", tipos: ["nativa", "web"], url: "https://archivos.aebn.cl", description: "Navega, sube y descarga los archivos y carpetas de tu Pod, y compártelos con otras personas." },
   { id: "escribir", name: "Escribir", tipos: ["nativa"], description: "Procesador de texto en Markdown. Tus documentos quedan en la carpeta Documentos de tu Pod." },
   { id: "estudio", name: "Estudio", tipos: ["nativa"], description: "Publica desde tu Pod tu música, que se escucha en musica.aebn.cl, y tus charlas o relatos para la Audioteca." },
   { id: "arbol", name: "Árbol", tipos: ["nativa"], temprana: true, description: "Tus enlaces en una página pública, servida en arbol.aebn.cl." },
