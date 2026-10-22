@@ -5,6 +5,11 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.11.0] - 2026-10-22
+
+### Añadido
+- Encuestador, la app de espacio para crear encuestas, en la lista de aplicaciones, con su página (`/aplicaciones/encuestador/`) y su guía en la documentación: crear y publicar una encuesta, compartir el enlace, revisar los resultados, exportarlos a CSV, despublicar y eliminar. Va con las etiquetas «Nativa» y «En etapa temprana».
+
 ## [1.10.0] - 2026-10-20
 
 ### Cambiado
