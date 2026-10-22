@@ -12,9 +12,13 @@ order: 2
 
 ## Mac
 
-Requiere un Mac con procesador Apple (M1 o posterior).
+Funciona en Mac con procesador Apple (M1 o posterior) y en Mac con procesador Intel. Si no sabes cuál es el tuyo, abre el menú Apple → **Acerca de este Mac**: si dice **Chip**, es Apple; si dice **Procesador** con «Intel», es Intel.
 
-1. Descarga [espacio para Mac]({{ espacio.dmgUrl }}) (`.dmg`).
+1. Descarga espacio para tu Mac (`.dmg`):
+   - [Mac con Apple (M1 o posterior)]({{ espacio.dmgUrl }})
+{%- if espacio.dmgIntelUrl %}
+   - [Mac con Intel]({{ espacio.dmgIntelUrl }})
+{%- endif %}
 2. Abre el `.dmg` y arrastra **espacio** a la carpeta **Aplicaciones**.
 3. Saca la app de cuarentena. Abre la **Terminal** y ejecuta:
 
