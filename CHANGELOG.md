@@ -5,6 +5,11 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.13.0] - 2026-10-22
+
+### Cambiado
+- Archivos también se usa en el navegador, en [archivos.aebn.cl](https://archivos.aebn.cl), y lleva las etiquetas «Nativa» y «Web». Su guía explica cómo conectarse desde el navegador y aclara que sincronizar carpetas de tu computador es solo dentro de espacio.
+
 ## [1.12.0] - 2026-10-22
 
 ### Añadido
