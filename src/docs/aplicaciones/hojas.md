@@ -32,6 +32,26 @@ Cuando hay cambios aparece **sin guardar**: haz clic en **Guardar** para dejarlo
 
 Las dos vistas son el mismo libro.
 
+## Con el teclado
+
+Haz clic en una celda y sigue con el teclado:
+
+| Tecla | Qué hace |
+| --- | --- |
+| Flechas | Pasan a la celda de al lado. |
+| Mayús + flechas | Seleccionan un rango. |
+| Enter o F2 | Editan la celda. También puedes empezar a escribir directamente. |
+| Enter, al editar | Guarda la celda y baja a la siguiente. Con Mayús, sube. |
+| Tab, al editar | Guarda la celda y pasa a la de la derecha. Con Mayús, a la de la izquierda. |
+| Esc, al editar | Descarta lo que escribiste en la celda. |
+| Tab | Pasa a la celda de la derecha. En la última columna sale de la tabla hacia el resto de la pantalla; Mayús + Tab hace lo mismo desde la primera. |
+| Supr o Retroceso | Borran lo seleccionado. |
+| Ctrl/Cmd+C, X y V | Copian, cortan y pegan. Puedes pegar un rango copiado desde Excel u otra planilla. |
+| Ctrl/Cmd+Z | Deshace. Ctrl/Cmd+Mayús+Z o Ctrl/Cmd+Y rehace. |
+| Ctrl/Cmd+S | Guarda el libro. |
+
+Estas teclas solo actúan sobre la tabla cuando está enfocada. En los botones de alrededor, Tab y Enter funcionan como en el resto de espacio.
+
 ## Fórmulas
 
 La fila 1 de cada tabla es su encabezado. Con eso puedes nombrar columnas y celdas de otras tablas:
