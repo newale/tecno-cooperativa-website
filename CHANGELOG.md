@@ -5,6 +5,18 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+## [1.14.0] - 2026-10-22
+
+### Añadido
+- Página «Accesibilidad de espacio» en la documentación (`/docs/accesibilidad/`): la meta de cumplir WCAG 2.2 nivel AA, lo que ya funciona y lo que falta. Dice sin rodeos que hoy espacio todavía no cumple ese nivel.
+- La guía de Hojas explica cómo usarla con el teclado: moverse entre celdas, editarlas, copiar y pegar, deshacer y salir de la tabla con Tab.
+
+### Cambiado
+- espacio 1.15.0 en el feed de actualizaciones y en los botones de descarga.
+
+### Quitado
+- El correo de contacto del pie de página: era provisorio y no existía.
+
 ## [1.13.0] - 2026-10-22
 
 ### Cambiado
