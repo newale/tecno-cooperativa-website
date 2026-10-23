@@ -1,17 +1,17 @@
 {
-  "version": "1.14.0",
+  "version": "1.15.0",
   "dmg": {
-    "file": "espacio-1.14.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.14.0-arm64.dmg",
-    "sha512": "h4vlQQtiij9H7l4OOwU0e96SEiqtdu9LgTWqpPdR2z8M8ny76YG1zpqQXXr43HqXbsjHG4TqYPBopg2LvVSX/Q==",
-    "size": 126936972
+    "file": "espacio-1.15.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.15.0-arm64.dmg",
+    "sha512": "4sKf3uwodTTj1+A+mAh/As/klh9tMygIGw52nQYXAz7LqLW/wML/qVJAtN8dXK8t0fWRy30dcs1c3HwAprjcRw==",
+    "size": 126929106
   },
   "dmgX64": {
-    "file": "espacio-1.14.0-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.14.0-x64.dmg",
-    "sha512": "gHgKcE21ePb+FVMf2xROw701T8E04Yt0pK0enGb+ZZoamYiH0T5rSL/nJ9DkEG+QJWWqRPrxGbkEa/Qz3ybHYg==",
-    "size": 133893350
+    "file": "espacio-1.15.0-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.15.0-x64.dmg",
+    "sha512": "BCQ7Mjy2SZB4QBIfQAakeolBC48DPwf0/YpGa/sycpniOdX42Yhz9G6wN0Rd+AzLaBEDxz2SRTjJnqiVSk9paQ==",
+    "size": 133906052
   },
-  "notes": "espacio ya funciona en Mac con procesador Intel, y estrena icono: la e sobre fondo amarillo, sin borde",
-  "date": "2026-10-22T20:42:10.856Z"
+  "notes": "Mejor accesibilidad: más contraste y foco visible con el teclado. El visor de Archivos abre audio, video, fotos RAW y PDF, y Hojas elige fuentes de todo el pod",
+  "date": "2026-10-23T00:23:18.403Z"
 }
