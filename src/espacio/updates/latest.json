@@ -1,17 +1,17 @@
 {
-  "version": "1.15.0",
+  "version": "1.16.0",
   "dmg": {
-    "file": "espacio-1.15.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.15.0-arm64.dmg",
-    "sha512": "4sKf3uwodTTj1+A+mAh/As/klh9tMygIGw52nQYXAz7LqLW/wML/qVJAtN8dXK8t0fWRy30dcs1c3HwAprjcRw==",
-    "size": 126929106
+    "file": "espacio-1.16.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.16.0-arm64.dmg",
+    "sha512": "tUcaBud5idcTYm4kv1I26Em6D/SCba2UM1Epq3oCHol+ZlUN0sZrW5g4Nuz9SatxWM0uBdBlwFjHar7FwOk4KA==",
+    "size": 127114933
   },
   "dmgX64": {
-    "file": "espacio-1.15.0-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.15.0-x64.dmg",
-    "sha512": "BCQ7Mjy2SZB4QBIfQAakeolBC48DPwf0/YpGa/sycpniOdX42Yhz9G6wN0Rd+AzLaBEDxz2SRTjJnqiVSk9paQ==",
-    "size": 133906052
+    "file": "espacio-1.16.0-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.16.0-x64.dmg",
+    "sha512": "Ge3v5eIUGQDGqKdhjAz54uJYjLdC5i0wRaZ8XlCiaAg6QNfDik6BLqApRYE3C3KNbTaLgwjsfN5B1LIYG8VkPQ==",
+    "size": 134096276
   },
-  "notes": "Mejor accesibilidad: más contraste y foco visible con el teclado. El visor de Archivos abre audio, video, fotos RAW y PDF, y Hojas elige fuentes de todo el pod",
-  "date": "2026-10-23T00:23:18.403Z"
+  "notes": "Notas al pie en Escribir y exportar a Word (.docx); abrir documentos con ⌘O; nuevo archivo en Archivos; los avisos de error se pueden cerrar.",
+  "date": "2026-10-28T00:08:43.743Z"
 }
