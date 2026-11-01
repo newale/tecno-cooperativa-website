@@ -1,17 +1,17 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "dmg": {
-    "file": "espacio-2.1.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.1.0-arm64.dmg",
-    "sha512": "hDAmDGu5xR6Y8FRi7a8wRGawKx2+VkvdrjYWSE32Ae/eeMfh+4cQO+BGCsHgz4srWV10b0ZRRiMwgt8lBrPJNA==",
-    "size": 127151589
+    "file": "espacio-2.2.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.2.0-arm64.dmg",
+    "sha512": "jVnshk9jsqBFd0cTUuhIJXBqBigwJAxvhCTmooYfifejcw5MltDbktIKxZhsb9f5muIt2+KAlIcdYsEioGZFdg==",
+    "size": 127150063
   },
   "dmgX64": {
-    "file": "espacio-2.1.0-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.1.0-x64.dmg",
-    "sha512": "rnV15NS4P54D8g7bOMElGf1DTo+zUYoNcs3yPsZLr0nNKdBJjd5c0uObQlr+Lyi6IEh6s2e3OSmj4RbjBy9r0w==",
-    "size": 134107080
+    "file": "espacio-2.2.0-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.2.0-x64.dmg",
+    "sha512": "a8G2xxfNCXU961Uun+B+T0vwL1q8oUeG/U3uwbEFk4N7CbuL97Yn4ba8csioFwDID7WtZE1SWeE0gOPnS7YiAA==",
+    "size": 134122021
   },
-  "notes": "Diagramador: formas tipo Freeform, pegar a la grilla, editar con doble clic y conectar con puntos amarillos.",
-  "date": "2026-11-01T18:38:42.257Z"
+  "notes": "Dock a la izquierda, derecha o abajo; ordenar las apps del dock; iniciar sesión desde el menú de usuario; paletas y BPMN básico en Diagramador.",
+  "date": "2026-11-01T19:00:35.925Z"
 }
