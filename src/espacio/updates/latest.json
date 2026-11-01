@@ -1,17 +1,17 @@
 {
-  "version": "1.16.0",
+  "version": "2.0.0",
   "dmg": {
-    "file": "espacio-1.16.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.16.0-arm64.dmg",
-    "sha512": "tUcaBud5idcTYm4kv1I26Em6D/SCba2UM1Epq3oCHol+ZlUN0sZrW5g4Nuz9SatxWM0uBdBlwFjHar7FwOk4KA==",
-    "size": 127114933
+    "file": "espacio-2.0.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.0.0-arm64.dmg",
+    "sha512": "N9RNVeOdZJMhnwNnbWX6iJFGk/1xiShNr+7Nvh5Mel4ySsuMaRDo+qKUsVMHhib877KKY5bT913q3lhmSSmWhQ==",
+    "size": 127147457
   },
   "dmgX64": {
-    "file": "espacio-1.16.0-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-1.16.0-x64.dmg",
-    "sha512": "Ge3v5eIUGQDGqKdhjAz54uJYjLdC5i0wRaZ8XlCiaAg6QNfDik6BLqApRYE3C3KNbTaLgwjsfN5B1LIYG8VkPQ==",
-    "size": 134096276
+    "file": "espacio-2.0.0-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.0.0-x64.dmg",
+    "sha512": "KAUd5/ePStMOSnMo2vBVLBuWIKIgVIyvqOrUkBUFy3kQJxrMZpbBuQIQPMraRF2fyvbOOJl0KG4sCkLAue6ABg==",
+    "size": 134097591
   },
-  "notes": "Notas al pie en Escribir y exportar a Word (.docx); abrir documentos con ⌘O; nuevo archivo en Archivos; los avisos de error se pueden cerrar.",
-  "date": "2026-10-28T00:08:43.743Z"
+  "notes": "Nueva barra de arriba, dock y buscador de apps (⌘P); Escribir con pestañas, resaltado, citas y edición directa en disco; nueva app Diagramador y tableros en Hojas; Archivos lee del disco las carpetas sincronizadas. ⌘P ya no imprime en Escribir (ahora ⇧⌘P).",
+  "date": "2026-11-01T17:51:40.587Z"
 }
