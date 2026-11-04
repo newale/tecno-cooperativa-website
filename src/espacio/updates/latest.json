@@ -1,17 +1,17 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "dmg": {
-    "file": "espacio-2.2.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.2.0-arm64.dmg",
-    "sha512": "jVnshk9jsqBFd0cTUuhIJXBqBigwJAxvhCTmooYfifejcw5MltDbktIKxZhsb9f5muIt2+KAlIcdYsEioGZFdg==",
-    "size": 127150063
+    "file": "espacio-2.3.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.3.0-arm64.dmg",
+    "sha512": "IhSI1gXVbIxOZdIVadOn8ut51GyltJfSUpP5xcl16kjHiX2gloFxzPpxnix4Y5v4bEuyy2UCiiX4l64aYoq/5g==",
+    "size": 127154543
   },
   "dmgX64": {
-    "file": "espacio-2.2.0-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.2.0-x64.dmg",
-    "sha512": "a8G2xxfNCXU961Uun+B+T0vwL1q8oUeG/U3uwbEFk4N7CbuL97Yn4ba8csioFwDID7WtZE1SWeE0gOPnS7YiAA==",
-    "size": 134122021
+    "file": "espacio-2.3.0-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.3.0-x64.dmg",
+    "sha512": "gSWwc/xvsrzDTO47GzcSTcDbZo06m6yGCSUtQmRCnix8lu82Tm34dMcTnMTB3DcVHBxmhnWllind6BSQfrj3Cw==",
+    "size": 134131102
   },
-  "notes": "Dock a la izquierda, derecha o abajo; ordenar las apps del dock; iniciar sesión desde el menú de usuario; paletas y BPMN básico en Diagramador.",
-  "date": "2026-11-01T19:00:35.925Z"
+  "notes": "Diagramador importa libros de Hojas como instantánea y compila notas de Escribir en un grafo de enlaces que se puede actualizar.",
+  "date": "2026-11-04T17:34:22.662Z"
 }
