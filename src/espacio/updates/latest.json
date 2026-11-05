@@ -1,17 +1,17 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "dmg": {
-    "file": "espacio-2.3.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.3.0-arm64.dmg",
-    "sha512": "IhSI1gXVbIxOZdIVadOn8ut51GyltJfSUpP5xcl16kjHiX2gloFxzPpxnix4Y5v4bEuyy2UCiiX4l64aYoq/5g==",
-    "size": 127154543
+    "file": "espacio-2.4.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.4.0-arm64.dmg",
+    "sha512": "kMVBu4KDwN1LHXghnWWYvySHi9mQduOrpk7kYy0IpeNbeLCzuNWy9vLEd9VTw2GtFh+tnYDw7lEl7ii5z/LHYA==",
+    "size": 127161851
   },
   "dmgX64": {
-    "file": "espacio-2.3.0-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.3.0-x64.dmg",
-    "sha512": "gSWwc/xvsrzDTO47GzcSTcDbZo06m6yGCSUtQmRCnix8lu82Tm34dMcTnMTB3DcVHBxmhnWllind6BSQfrj3Cw==",
-    "size": 134131102
+    "file": "espacio-2.4.0-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.4.0-x64.dmg",
+    "sha512": "mZE2wP3rLkJgwZxE3Pm7hVW6el0FhPB+SeUXp+DQ3o3T0a8Ma/E7xwY7Vs+ub9RuqlZY8T2DkiUGnIqHj1Q9mw==",
+    "size": 134128038
   },
-  "notes": "Diagramador importa libros de Hojas como instantánea y compila notas de Escribir en un grafo de enlaces que se puede actualizar.",
-  "date": "2026-11-04T17:34:22.662Z"
+  "notes": "Vuelve Inicio: saludo, documentos para continuar, ocupación de tu plan con tus cuotas y estado de la cooperativa, sobre el fondo animado. Nuevo centro de control en la barra para el tema y el alto contraste, que ahora siguen al sistema. Con muchas apps el dock hace scroll en vez de salirse de la ventana.",
+  "date": "2026-11-05T01:34:24.989Z"
 }
