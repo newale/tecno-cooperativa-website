@@ -1,17 +1,17 @@
 {
-  "version": "2.4.0",
+  "version": "2.4.1",
   "dmg": {
-    "file": "espacio-2.4.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.4.0-arm64.dmg",
-    "sha512": "kMVBu4KDwN1LHXghnWWYvySHi9mQduOrpk7kYy0IpeNbeLCzuNWy9vLEd9VTw2GtFh+tnYDw7lEl7ii5z/LHYA==",
-    "size": 127161851
+    "file": "espacio-2.4.1-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.4.1-arm64.dmg",
+    "sha512": "LdN+z5U65NZkmkchT3aJZImq3DC+Foj04Pyyete1DVJ3vxyPiTXU4yPQSOfbtvzKfJ420PfozjxaPRvBnwtrQQ==",
+    "size": 127161554
   },
   "dmgX64": {
-    "file": "espacio-2.4.0-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.4.0-x64.dmg",
-    "sha512": "mZE2wP3rLkJgwZxE3Pm7hVW6el0FhPB+SeUXp+DQ3o3T0a8Ma/E7xwY7Vs+ub9RuqlZY8T2DkiUGnIqHj1Q9mw==",
-    "size": 134128038
+    "file": "espacio-2.4.1-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.4.1-x64.dmg",
+    "sha512": "hmKJHqw3k/b+RcfwihJ5K36OaBQld7lFpRxNKMddYK/I3m1dyNTX1EPxeh0xyK9PTSCbtJY5tfcNwI2fMXDl0g==",
+    "size": 134128084
   },
-  "notes": "Vuelve Inicio: saludo, documentos para continuar, ocupación de tu plan con tus cuotas y estado de la cooperativa, sobre el fondo animado. Nuevo centro de control en la barra para el tema y el alto contraste, que ahora siguen al sistema. Con muchas apps el dock hace scroll en vez de salirse de la ventana.",
-  "date": "2026-11-05T01:34:24.989Z"
+  "notes": "Desactiva por ahora las carpetas sincronizadas con el equipo y corrige las copias «(conflicto …)» que se generaban cuando una subida al pod quedaba a medias.",
+  "date": "2026-11-05T04:31:29.351Z"
 }
