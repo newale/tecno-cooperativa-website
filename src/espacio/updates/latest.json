@@ -1,17 +1,17 @@
 {
-  "version": "2.4.1",
+  "version": "2.5.0",
   "dmg": {
-    "file": "espacio-2.4.1-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.4.1-arm64.dmg",
-    "sha512": "LdN+z5U65NZkmkchT3aJZImq3DC+Foj04Pyyete1DVJ3vxyPiTXU4yPQSOfbtvzKfJ420PfozjxaPRvBnwtrQQ==",
-    "size": 127161554
+    "file": "espacio-2.5.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.5.0-arm64.dmg",
+    "sha512": "SQkC+OIvsihBsYhKv0oIHDngYpK2Nlqa/ijbAywT90Cy/RZhIc+9bt10kZeQNywKM11tJjm1DACvXtb3plK3ZA==",
+    "size": 127175424
   },
   "dmgX64": {
-    "file": "espacio-2.4.1-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.4.1-x64.dmg",
-    "sha512": "hmKJHqw3k/b+RcfwihJ5K36OaBQld7lFpRxNKMddYK/I3m1dyNTX1EPxeh0xyK9PTSCbtJY5tfcNwI2fMXDl0g==",
-    "size": 134128084
+    "file": "espacio-2.5.0-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.5.0-x64.dmg",
+    "sha512": "72INLyXOIysYsCiNn7lwsKnW+sLgsXfCjWT17rziJ6Ce6yVFcoafnMiwQXxVW7cMEq4LmIcJzWrHe1LpljjzwQ==",
+    "size": 134158351
   },
-  "notes": "Desactiva por ahora las carpetas sincronizadas con el equipo y corrige las copias «(conflicto …)» que se generaban cuando una subida al pod quedaba a medias.",
-  "date": "2026-11-05T04:31:29.351Z"
+  "notes": "Trenzador: nueva aplicación para gestionar corpus etnográficos como unidades hermenéuticas portátiles (.ensamble), con registro maestro, red del corpus y codificación.",
+  "date": "2026-11-08T19:47:38.293Z"
 }
