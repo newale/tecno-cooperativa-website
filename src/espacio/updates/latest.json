@@ -1,17 +1,17 @@
 {
-  "version": "2.5.0",
+  "version": "2.6.0",
   "dmg": {
-    "file": "espacio-2.5.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.5.0-arm64.dmg",
-    "sha512": "SQkC+OIvsihBsYhKv0oIHDngYpK2Nlqa/ijbAywT90Cy/RZhIc+9bt10kZeQNywKM11tJjm1DACvXtb3plK3ZA==",
-    "size": 127175424
+    "file": "espacio-2.6.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.6.0-arm64.dmg",
+    "sha512": "Ynk/XnRtR244y+C7vFwNz44DYO3JHVCpJd6naPbcyjRIYgRNF6V/14KF3+MeMHVgmmiWw73m9ndKwN/rxulccw==",
+    "size": 127557421
   },
   "dmgX64": {
-    "file": "espacio-2.5.0-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.5.0-x64.dmg",
-    "sha512": "72INLyXOIysYsCiNn7lwsKnW+sLgsXfCjWT17rziJ6Ce6yVFcoafnMiwQXxVW7cMEq4LmIcJzWrHe1LpljjzwQ==",
-    "size": 134158351
+    "file": "espacio-2.6.0-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.6.0-x64.dmg",
+    "sha512": "kbhCKIDSWy3029NiMvJosJ/FzK8D72fReB3WFwdtLiUL/bxFizGd0pIIp19UpB6Bhbg8fOV9BzhesobB8j+UdA==",
+    "size": 134497428
   },
-  "notes": "Trenzador: nueva aplicación para gestionar corpus etnográficos como unidades hermenéuticas portátiles (.ensamble), con registro maestro, red del corpus y codificación.",
-  "date": "2026-11-08T19:47:38.293Z"
+  "notes": "Trenzador: fuentes vivas que se resincronizan y reubican sus citas, búsqueda dentro de la fuente, conversión de PDF, panorama del corpus, libro de códigos y tutoriales.",
+  "date": "2026-11-10T00:20:05.315Z"
 }
