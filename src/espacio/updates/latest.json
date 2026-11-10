@@ -1,17 +1,17 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1",
   "dmg": {
-    "file": "espacio-2.6.0-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.6.0-arm64.dmg",
-    "sha512": "Ynk/XnRtR244y+C7vFwNz44DYO3JHVCpJd6naPbcyjRIYgRNF6V/14KF3+MeMHVgmmiWw73m9ndKwN/rxulccw==",
-    "size": 127557421
+    "file": "espacio-2.6.1-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.6.1-arm64.dmg",
+    "sha512": "vut2BEUJB/N6DwF1eGsGbKjOzPI/4Is06CLgBtE22rLIlD4THBvRQ0bh21qj/XPlOhCooSQL4yD98MOY1ECOsA==",
+    "size": 127561343
   },
   "dmgX64": {
-    "file": "espacio-2.6.0-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.6.0-x64.dmg",
-    "sha512": "kbhCKIDSWy3029NiMvJosJ/FzK8D72fReB3WFwdtLiUL/bxFizGd0pIIp19UpB6Bhbg8fOV9BzhesobB8j+UdA==",
-    "size": 134497428
+    "file": "espacio-2.6.1-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.6.1-x64.dmg",
+    "sha512": "vfds/gOWp0A9+ELZUjwTdQjCAlyraAAG3Q5dP0rrDyquOXRFub0QlUoxdsrg9DV9ZAsSHZpx08NMDD6ZmfaJSA==",
+    "size": 134524256
   },
-  "notes": "Trenzador: fuentes vivas que se resincronizan y reubican sus citas, búsqueda dentro de la fuente, conversión de PDF, panorama del corpus, libro de códigos y tutoriales.",
-  "date": "2026-11-10T00:20:05.315Z"
+  "notes": "Corrige un error que impedía abrir la versión 2.6.0 (si no abre, reinstala desde el instalador). Incluye las novedades de Trenzador de la 2.6.0.",
+  "date": "2026-11-10T01:21:15.759Z"
 }
