@@ -1,0 +1,17 @@
+{
+  "version": "3.0.0-beta.1",
+  "dmg": {
+    "file": "espacio-3.0.0-beta.1-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-3.0.0-beta.1-arm64.dmg",
+    "sha512": "i+z3nBV4rgdZRuqelDFb/rROdvn65enex5fnkFHAyVH4979AkYZpxOsWzMtPAkBvPcwDA1YhxCRXIdBVdo9m4g==",
+    "size": 127637964
+  },
+  "dmgX64": {
+    "file": "espacio-3.0.0-beta.1-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-3.0.0-beta.1-x64.dmg",
+    "sha512": "t0Nsr4WxJJa3k9taCucQdwag5Xn7dc3IfLJsSWVHVr1spc9c+1gbMswJIeDnDBBofgT1FczaIsdaxeRpouL4ZQ==",
+    "size": 134601706
+  },
+  "notes": "Primera beta de espacio 3.0: sin dock (las apps se abren desde Inicio, ⌘P y la barra), una sola paleta para espacio y sus apps, «Lo que has hecho» por periodos, bloqueo de anuncios y sugerencias en el Navegador, escuchas en Estudio, «Reducir movimiento» y mensajería solo entre socios.",
+  "date": "2026-11-11T02:36:00.981Z"
+}
