@@ -1,17 +1,17 @@
 {
-  "version": "2.6.1",
+  "version": "2.7.0",
   "dmg": {
-    "file": "espacio-2.6.1-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.6.1-arm64.dmg",
-    "sha512": "vut2BEUJB/N6DwF1eGsGbKjOzPI/4Is06CLgBtE22rLIlD4THBvRQ0bh21qj/XPlOhCooSQL4yD98MOY1ECOsA==",
-    "size": 127561343
+    "file": "espacio-2.7.0-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.7.0-arm64.dmg",
+    "sha512": "yEo5MHr8PBx1+XOA8VTWF2fHP4I/fIFDFrKuXg0WYbJk6VOl+X75lDVwg7vJTAeJ6s/AoZrsdB9nseeD8Ygmlg==",
+    "size": 127568743
   },
   "dmgX64": {
-    "file": "espacio-2.6.1-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.6.1-x64.dmg",
-    "sha512": "vfds/gOWp0A9+ELZUjwTdQjCAlyraAAG3Q5dP0rrDyquOXRFub0QlUoxdsrg9DV9ZAsSHZpx08NMDD6ZmfaJSA==",
-    "size": 134524256
+    "file": "espacio-2.7.0-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-2.7.0-x64.dmg",
+    "sha512": "hxsZKx45kArLTgmrwsqwdXS/7aZktEIO8HZBb//Wakce0rQyBxefakbvzAoxo02ODWvriL+zyWmCVKhfptPjKA==",
+    "size": 134529259
   },
-  "notes": "Corrige un error que impedía abrir la versión 2.6.0 (si no abre, reinstala desde el instalador). Incluye las novedades de Trenzador de la 2.6.0.",
-  "date": "2026-11-10T01:21:15.759Z"
+  "notes": "Ahora puedes probar las versiones beta: actívalo en Configuración › Actualizaciones › Recibir versiones beta. espacio usa la nueva dirección de la API de la cooperativa (api-tc.aebn.cl).",
+  "date": "2026-11-11T03:49:44.426Z"
 }
