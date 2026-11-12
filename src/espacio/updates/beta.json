@@ -1,17 +1,17 @@
 {
-  "version": "3.0.0-beta.2",
+  "version": "3.0.0-beta.4",
   "dmg": {
-    "file": "espacio-3.0.0-beta.2-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-3.0.0-beta.2-arm64.dmg",
-    "sha512": "LUUMR6EapCNdg7ZBakyy3K/iBSqXNd9en0G3GdbRmGyNJAXU5OBlUWmnxPjcbDgLkHXa7DTDlmh7AtlcE7XNNg==",
-    "size": 127634720
+    "file": "espacio-3.0.0-beta.4-arm64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-3.0.0-beta.4-arm64.dmg",
+    "sha512": "cMF88+7Zo0ytz7BOgvLUAjybfai5A1srvFYfghAM1wS9WXEXGOVMpF6T8WxsiHW1aIn7yPx/ujoJ3mYrfRNszg==",
+    "size": 127647437
   },
   "dmgX64": {
-    "file": "espacio-3.0.0-beta.2-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-3.0.0-beta.2-x64.dmg",
-    "sha512": "0QI+zqWRPaZFufOhO5gx/oPznIiU8iYcIWDweqELk9miH2NfiGeH1kiBCV9ceMW7/+AKStV+mciv3Eril1siMA==",
-    "size": 134602943
+    "file": "espacio-3.0.0-beta.4-x64.dmg",
+    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-3.0.0-beta.4-x64.dmg",
+    "sha512": "Gh3r+dPF59H8MtSPE0lePjtqQfyhfSXajJav2NhlK3IbGedFDB3jeRyA5YQmBzsBbzuMBli/2ljTVL7hyD6C7w==",
+    "size": 134624151
   },
-  "notes": "Inicio y Cuenta muestran el consumo eléctrico del mes de la cooperativa, con un gráfico mínimo por día (el detalle, al pasar el cursor).",
-  "date": "2026-11-12T05:41:06.801Z"
+  "notes": "Las actualizaciones pasan a consultarse en tecnocooperativa.cl, el nuevo dominio del sitio de la cooperativa.",
+  "date": "2026-11-12T22:01:04.156Z"
 }
