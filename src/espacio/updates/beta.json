@@ -1,17 +1,17 @@
 {
-  "version": "3.0.0-beta.8",
+  "version": "3.0.0-beta.12",
   "dmg": {
-    "file": "espacio-3.0.0-beta.8-arm64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-3.0.0-beta.8-arm64.dmg",
-    "sha512": "Nhf6JEOjSiA0qo2KC8w+IC3YrrlC9ePOA8gW29mpxnoF+jmD5pWtbWOZggy1LoTiE54XGf0HYIntl+YWfOVxOA==",
-    "size": 127658047
+    "file": "espacio-3.0.0-beta.12-arm64.dmg",
+    "url": "https://pods.tecnocooperativa.cl/tecnocooperativa/espacio/versiones/espacio-3.0.0-beta.12-arm64.dmg",
+    "sha512": "SMO68tYmXSvRBCbyrxFlTRAGhiTqyoWdeSBEbcMgyfcDvL6XcIcmbzLJPNMNKUlLjQET9wAKshFY9GpjYyY1EQ==",
+    "size": 127679109
   },
   "dmgX64": {
-    "file": "espacio-3.0.0-beta.8-x64.dmg",
-    "url": "https://pods-rpi-tc.aebn.cl/tecnocoop/espacio/versiones/espacio-3.0.0-beta.8-x64.dmg",
-    "sha512": "zE3Z9s9upmfK3vWCZN26KimUWGtT46hSJkcvbcZLOkjA0hewbafOBsNivvO/uE78BhG7rXFcuz0EME6YhtHl7w==",
-    "size": 134617928
+    "file": "espacio-3.0.0-beta.12-x64.dmg",
+    "url": "https://pods.tecnocooperativa.cl/tecnocooperativa/espacio/versiones/espacio-3.0.0-beta.12-x64.dmg",
+    "sha512": "Uev0aPhnNN5W78KaZHWFQzNL3N4VLZZd8NYoZIzX6CqpWkJpY4EqYc4Qr5QbY1BF3KtdqTShdgObY+qSm4VyXA==",
+    "size": 134635428
   },
-  "notes": "La API de la cooperativa pasa a api.tecnocooperativa.cl.",
-  "date": "2026-11-22T19:55:12.829Z"
+  "notes": "Migración a tecnocooperativa.cl: las mini-apps y el inicio de sesión usan el servidor nuevo. Encuestador ya no se cae al crear una encuesta y se ve bien de nuevo.",
+  "date": "2026-11-25T03:19:49.558Z"
 }
